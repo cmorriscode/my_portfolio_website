@@ -5,6 +5,7 @@ $color-primary-light: #3b865a;
 $color-primary-lightest: #b5d1c1;
 
 $color-secondary: #680b42;
+$color-secondary-dark: #3e0627;
 
 $color-white: #eee;
 $color-black: #111;
@@ -23,4 +24,10 @@ $gradient-primary-light: linear-gradient(
   to bottom right,
   rgba($color-primary-lightest, 0.7),
   rgba($color-primary-light, 0.7)
+);
+
+$gradient-secondary-dark: linear-gradient(
+  to bottom right,
+  rgba($color-secondary, 0.95),
+  rgba($color-secondary-dark, 0.95)
 );
