@@ -1,0 +1,159 @@
+.header {
+  position: relative;
+  height: 100vh;
+
+  &-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+
+    & h2 {
+      font-size: 7rem;
+      background: $color-black;
+      padding: 0.7rem 1rem;
+      border-radius: 0.7rem;
+      box-shadow: $shadow-normal;
+      animation: move-in-left 1s ease-out;
+      animation-delay: 0.2s;
+    }
+
+    & p {
+      font-size: 5rem;
+      background: $color-black;
+      padding: 0.7rem 1rem;
+      border-radius: 0.7rem;
+      display: inline-block;
+      box-shadow: $shadow-normal;
+      animation: move-in-right 1s ease-out;
+      animation-delay: 0.2s;
+    }
+  }
+
+  &::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: $gradient-primary-dark,
+      url("../../img/hero-img2.jpg") no-repeat center center/ cover;
+  }
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  top: 0;
+  color: $color-white;
+  max-width: 1280px;
+  margin: 20px auto;
+
+  &-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &-logo {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 2.5rem;
+    background: $color-black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.1rem;
+    box-shadow: $shadow-normal;
+  }
+
+  & ul {
+    list-style: none;
+    margin-right: 2rem;
+    display: flex;
+
+    & li a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.8rem 1.2rem;
+      font-size: 2.2rem;
+      color: $color-white;
+      margin: 0 0.5rem;
+      box-shadow: $shadow-normal;
+      transition: all 0.3s;
+      border-radius: 3px;
+      background: rgba($color-primary, 0.65);
+
+      &:hover {
+        background: $color-secondary;
+        transform: translateY(-1px);
+        box-shadow: $shadow-rise;
+      }
+
+      &:active {
+        transform: translateY(0);
+        box-shadow: $shadow-normal;
+      }
+      &-current {
+        // background: #a46c8d;
+      }
+    }
+  }
+
+  &-list {
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+}
+
+@media (max-width: 1500px) {
+  .header-text {
+    top: 50%;
+    left: 30%;
+
+    & h2 {
+      font-size: 6rem;
+    }
+
+    & p {
+      font-size: 4.2rem;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .header-text {
+    top: 50%;
+    left: 35%;
+
+    & h2 {
+      font-size: 5.3rem;
+    }
+
+    & p {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+@media (max-width: 915px) {
+  .header-text {
+    top: 50%;
+    left: 35%;
+
+    & h2 {
+      font-size: 4.8rem;
+    }
+
+    & p {
+      font-size: 3.1rem;
+    }
+  }
+}

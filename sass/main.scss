@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
+
+@import "./base/base";
+@import "./base/variables";
+@import "./components/button";
+@import "./keyframes/keyframes";
+@import "./layout/header";
+@import "./layout/projects";
+
+.section-1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #333;
+  letter-spacing: 0.2rem;
+
+  & h2 {
+    display: inline-block;
+  }
+}
+.section-body {
+  height: 100vh;
+  max-width: 1280px;
+  background: $gradient-primary-light;
+  margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+.btn {
+  font-size: 1.8rem;
+  display: block;
+  padding: 0.8rem 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  transform: translate(1.5rem, 1rem);
+
+  &-hero {
+    background: $color-primary;
+    color: $color-white;
+    transition: all 0.3s;
+    box-shadow: $shadow-normal;
+    animation: move-up 0.8s ease-in-out;
+    animation-delay: 0.2s;
+
+    &:hover {
+      box-shadow: $shadow-rise;
+      transform: translate(1.5rem, 0.5rem);
+      background: $color-secondary;
+    }
+    &:active {
+      box-shadow: $shadow-normal;
+      transform: translate(1.5rem, 0) scale(1);
+    }
+  }
+}

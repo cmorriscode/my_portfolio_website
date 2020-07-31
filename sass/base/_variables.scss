@@ -1,0 +1,26 @@
+// Colors
+$color-primary: rgb(11, 104, 49);
+$color-primary-dark: #063e1d;
+$color-primary-light: #3b865a;
+$color-primary-lightest: #b5d1c1;
+
+$color-secondary: #680b42;
+
+$color-white: #eee;
+$color-black: #111;
+
+// Shadows
+$shadow-normal: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+$shadow-rise: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
+
+// Gradient
+$gradient-primary-dark: linear-gradient(
+  to right bottom,
+  rgba(3, 96, 37, 0.2),
+  rgba(11, 104, 49, 0.2)
+);
+$gradient-primary-light: linear-gradient(
+  to bottom right,
+  rgba($color-primary-lightest, 0.7),
+  rgba($color-primary-light, 0.7)
+);
