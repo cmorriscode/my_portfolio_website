@@ -447,6 +447,25 @@ a {
   }
 }
 
+.section-projects {
+  text-align: center;
+  color: #111;
+  letter-spacing: 0.2rem;
+}
+
+.section-projects h2 {
+  display: inline-block;
+  font-size: 4.2rem;
+}
+
+.section-projects-body {
+  height: 100vh;
+  max-width: 1280px;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(181, 209, 193, 0.7)), to(rgba(59, 134, 90, 0.7)));
+  background: linear-gradient(to bottom right, rgba(181, 209, 193, 0.7), rgba(59, 134, 90, 0.7));
+  margin: 0 auto;
+}
+
 .section-1 {
   text-align: center;
   font-size: 2.2rem;
@@ -464,5 +483,29 @@ a {
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(181, 209, 193, 0.7)), to(rgba(59, 134, 90, 0.7)));
   background: linear-gradient(to bottom right, rgba(181, 209, 193, 0.7), rgba(59, 134, 90, 0.7));
   margin: 0 auto;
+}
+
+.margin-top-small {
+  margin-top: 0.8rem;
+}
+
+.margin-top-medium {
+  margin-top: 1.6rem;
+}
+
+.margin-top-large {
+  margin-top: 3.2rem;
+}
+
+.margin-btm-small {
+  margin-bottom: 0.8rem;
+}
+
+.margin-btm-medium {
+  margin-bottom: 1.6rem;
+}
+
+.margin-btm-large {
+  margin-bottom: 3.2rem;
 }
 /*# sourceMappingURL=main.css.map */

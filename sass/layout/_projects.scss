@@ -1,0 +1,36 @@
+.section {
+  &-projects {
+    text-align: center;
+    color: $color-black;
+    letter-spacing: 0.2rem;
+
+    & h2 {
+      display: inline-block;
+      font-size: 4.2rem;
+    }
+
+    &-body {
+      height: 100vh;
+      max-width: 1280px;
+      background: $gradient-primary-light;
+      margin: 0 auto;
+    }
+  }
+}
+
+.section-1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #333;
+  letter-spacing: 0.2rem;
+
+  & h2 {
+    display: inline-block;
+  }
+}
+.section-body {
+  height: 100vh;
+  max-width: 1280px;
+  background: $gradient-primary-light;
+  margin: 0 auto;
+}
