@@ -6,32 +6,29 @@
 
     & h2 {
       display: inline-block;
-      font-size: 4.2rem;
+      font-size: 5rem;
       text-decoration: underline;
     }
 
     &-body {
-      height: 100vh;
-      max-width: 96rem;
-      background: $gradient-secondary-light;
+      max-width: 108rem;
+      background: $color-secondary-white;
       margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      grid-gap: 2rem;
+      padding: 1.2rem 1.6rem;
+      border-radius: 1rem;
     }
   }
 }
 
-.section-1 {
-  text-align: center;
-  font-size: 2.2rem;
-  color: #333;
-  letter-spacing: 0.2rem;
-
-  & h2 {
-    display: inline-block;
+@media (max-width: 900px) {
+  .section-projects {
+    &-body {
+      grid-template-columns: repeat(1, 1fr);
+      width: 70%;
+    }
   }
-}
-.section-body {
-  height: 100vh;
-  max-width: 1280px;
-  background: $gradient-primary-light;
-  margin: 0 auto;
 }

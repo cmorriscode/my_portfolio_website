@@ -7,12 +7,14 @@
   padding: 0;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  overflow-x: none;
 }
 
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +22,7 @@ body {
           box-sizing: border-box;
   color: #fff;
   font-family: "Lato", sans-serif;
-  background: #color-white;
+  background: #eee;
 }
 
 .btn {
@@ -278,7 +280,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
 }
 
@@ -374,8 +375,13 @@ body {
 
 .nav-bar-open-slide-click {
   position: absolute;
-  top: 1rem;
-  right: 2rem;
+  top: 0;
+  right: 1rem;
+  padding: 1rem 1.5rem;
+  background: #111;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
 }
 
 a {
@@ -439,6 +445,16 @@ a {
   .header-text p {
     font-size: 2.8rem;
   }
+  .side-nav .btn-close {
+    display: none;
+    position: absolute;
+    translate: translateX(-5rem);
+  }
+  .side-nav .nav-bar-open-slide-click {
+    -webkit-transform: translateX(-5rem);
+            transform: translateX(-5rem);
+    padding: 1rem 1.5rem;
+  }
 }
 
 @media (min-width: 916px) {
@@ -455,35 +471,30 @@ a {
 
 .section-projects h2 {
   display: inline-block;
-  font-size: 4.2rem;
+  font-size: 5rem;
   text-decoration: underline;
 }
 
 .section-projects-body {
-  height: 100vh;
-  max-width: 96rem;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(78, 117, 117, 0.95)), to(rgba(3, 59, 59, 0.95)));
-  background: linear-gradient(to bottom right, rgba(78, 117, 117, 0.95), rgba(3, 59, 59, 0.95));
+  max-width: 108rem;
+  background: #e5ebeb;
   margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-gap: 2rem;
+  padding: 1.2rem 1.6rem;
+  border-radius: 1rem;
 }
 
-.section-1 {
-  text-align: center;
-  font-size: 2.2rem;
-  color: #333;
-  letter-spacing: 0.2rem;
-}
-
-.section-1 h2 {
-  display: inline-block;
-}
-
-.section-body {
-  height: 100vh;
-  max-width: 1280px;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(237, 182, 161, 0.7)), to(rgba(224, 128, 90, 0.7)));
-  background: linear-gradient(to bottom right, rgba(237, 182, 161, 0.7), rgba(224, 128, 90, 0.7));
-  margin: 0 auto;
+@media (max-width: 900px) {
+  .section-projects-body {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    width: 70%;
+  }
 }
 
 .margin-top-small {
@@ -508,5 +519,69 @@ a {
 
 .margin-btm-large {
   margin-bottom: 3.2rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #011717;
+  padding: 0.6rem 1rem;
+  color: #eee;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  line-height: 1.6;
+  border: 1rem solid #033b3b;
+  border-radius: 1rem;
+}
+
+.card-structure h3 {
+  font-size: 2.6rem;
+  border: 0.4rem solid rgba(78, 117, 117, 0.3);
+}
+
+.card-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.card-img-container .card-img img {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid #4e7575;
+}
+
+.card-description {
+  padding: 0.6rem 0.8rem;
+}
+
+.card-description p {
+  font-size: 1.8rem;
+}
+
+.code-links-code {
+  background: #93330e;
+  padding: 0.8rem 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.8rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.code-links-code:hover {
+  background: #d34a14;
+  -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
 }
 /*# sourceMappingURL=main.css.map */

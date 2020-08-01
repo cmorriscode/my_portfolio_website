@@ -17,3 +17,8 @@ document.querySelector(".btn-close").addEventListener("click", (e) => {
 
   e.target.style.display = "none";
 });
+
+AOS.init({
+  offset: 200,
+  duration: 800,
+});

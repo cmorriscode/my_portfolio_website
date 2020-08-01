@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/css/main.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Charlie Morris' Portfolio | Welcome to my hand-made website!</title>
   </head>
   <body>
-    <header class="header">
+    <header id="home" class="header">
       <div class="nav-bar-container">
         <nav class="nav-bar">
           <span class="nav-bar-open-slide">
@@ -19,13 +20,15 @@
               </svg>
             </a>
           </span>
-          <div class="nav-bar-logo"><a href="#">Hi, I'm Charlie Morris</a></div>
+          <div class="nav-bar-logo">
+            <a href="#home">Hi, I'm Charlie Morris</a>
+          </div>
           <div class="nav-bar-list">
             <ul>
-              <li class="current"><a href="#">Home</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li class="current"><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -47,28 +50,130 @@
 
     <main>
       <section class="section-projects">
-        <h2 class="margin-top-large margin-btm-large">Projects</h2>
+        <h2 class="margin-top-large margin-btm-large" id="projects">
+          Projects
+        </h2>
         <div class="section-projects-body">
-          <div class="card">
-            <div class="card-img"></div>
-            <div class="card-description">Portfolio Website</div>
+          <div class="card" data-aos="fade-right">
+            <div class="card-structure">
+              <h3 class="margin-btm-small">Portfolio Website</h3>
+              <div class="card-img-container">
+                <div class="card-img card-img-1">
+                  <img
+                    src="/img/portfolio.jpg"
+                    alt="Image of my personal portfolio"
+                  />
+                </div>
+              </div>
+              <div class="card-description margin-top-small">
+                <div class="code-links margin-top-small margin-btm-small">
+                  <a
+                    href="https://github.com/theboldedpixel/my_portfolio_website"
+                    target="_blank"
+                    class="code-links-code"
+                    >View the code</a
+                  >
+                </div>
+                <p>
+                  The website you're viewing now! Made from scratch with HTML,
+                  CSS, SASS, and vanilla JavaScript. No themes - everything was
+                  hand-crafted and self made.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <div class="card-img"></div>
-            <div class="card-description">Tic Tac Toe</div>
+          <div class="card" data-aos="fade-left">
+            <div class="card-structure">
+              <h3 class="margin-btm-small">Tic Tac Toe</h3>
+              <div class="card-img-container">
+                <div class="card-img card-img-2">
+                  <img
+                    src="/img/tic-tac-toe.jpg"
+                    alt="Picture of a tic-tac-toe game"
+                  />
+                </div>
+              </div>
+              <div class="card-description">
+                <div class="code-links margin-top-small margin-btm-small">
+                  <a
+                    href="https://github.com/theboldedpixel/tic-tac-toe"
+                    target="_blank"
+                    class="code-links-code"
+                    >View the code</a
+                  >
+                </div>
+                <p>
+                  Fun tic-tac-toe game built with HTML, CSS, and vanilla
+                  JavaScript. Some extra functionality is added in this web app
+                  - you can compete vs. a friend or against a CPU at easy/hard
+                  difficulty levels. Go try it out!
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <div class="card-img"></div>
-            <div class="card-description">Etch-a-Sketch</div>
+          <div class="card" data-aos="fade-right">
+            <div class="card-structure">
+              <h3 class="margin-btm-small">Etch-a-sketch</h3>
+
+              <div class="card-img-container">
+                <div class="card-img card-img-3">
+                  <img
+                    src="/img/etch-a-sketch.jpg"
+                    alt="Picture of an etch-a-sketch game"
+                  />
+                </div>
+              </div>
+              <div class="card-description">
+                <div class="code-links margin-top-small margin-btm-small">
+                  <a
+                    href="https://github.com/theboldedpixel/etch-a-sketch"
+                    target="_blank"
+                    class="code-links-code"
+                    >View the code</a
+                  >
+                </div>
+                <p>
+                  Customizable little etch-a-sketch game. Change the grid,
+                  choose your colors, and paint a masterpiece. Or just reset it
+                  and start all over again ;).
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <div class="card-img"></div>
-            <div class="card-description">To-Do-App</div>
+          <div class="card" data-aos="fade-left">
+            <div class="card-structure">
+              <h3 class="margin-btm-small">Calculator</h3>
+              <div class="card-img-container">
+                <div class="card-img card-img-4">
+                  <img
+                    src="/img/calculator-app.jpg"
+                    alt="Picture of a calculator app"
+                  />
+                </div>
+              </div>
+              <div class="card-description">
+                <div class="code-links margin-top-small margin-btm-small">
+                  <a
+                    href="https://github.com/theboldedpixel/calculator"
+                    target="_blank"
+                    class="code-links-code"
+                    >View the code</a
+                  >
+                </div>
+                <p>
+                  Seems like a basic calculator, but unlike the one built into
+                  your computer, it's able to handle the logic to solve more
+                  than just two integers at a time. HTML/CSS/DOM Manipulation
+                  and logic provided by JavaScript!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
