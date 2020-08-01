@@ -27,7 +27,7 @@ body {
 
 .btn {
   font-size: 1.8rem;
-  display: block;
+  display: inline-block;
   padding: 0.8rem 1.2rem;
   border-radius: 1rem;
   border: none;
@@ -487,6 +487,7 @@ a {
   grid-gap: 2rem;
   padding: 1.2rem 1.6rem;
   border-radius: 1rem;
+  overflow-x: hidden;
 }
 
 @media (max-width: 900px) {

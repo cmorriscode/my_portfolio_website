@@ -1,7 +1,7 @@
 document
   .querySelector(".nav-bar-open-slide-click")
   .addEventListener("click", (e) => {
-    e.preventDefault;
+    e.preventDefault();
     const sideNav = document.querySelector(".side-nav");
 
     document.querySelector(".btn-close").style.cssText = "display: block;";
@@ -9,7 +9,7 @@ document
   });
 
 document.querySelector(".btn-close").addEventListener("click", (e) => {
-  e.preventDefault;
+  e.preventDefault();
 
   const sideNav = document.querySelector(".side-nav");
 
