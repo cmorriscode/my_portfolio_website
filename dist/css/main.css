@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 *,
 *::after,
 *::before {
@@ -18,8 +19,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #fff;
-  font-family: "Antic", sans-serif;
-  background: #e6efea;
+  font-family: "Lato", sans-serif;
+  background: #color-white;
 }
 
 .btn {
@@ -33,7 +34,7 @@ body {
 }
 
 .btn-hero {
-  background: #0b6831;
+  background: #d34a14;
   color: #eee;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -50,7 +51,7 @@ body {
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
   -webkit-transform: translate(1.5rem, 0.5rem);
           transform: translate(1.5rem, 0.5rem);
-  background: #680b42;
+  background: #e0805a;
 }
 
 .btn-hero:active {
@@ -255,8 +256,7 @@ body {
   content: "";
   top: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(3, 96, 37, 0.2)), to(rgba(11, 104, 49, 0.2))), url("../../img/hero-img2.jpg") no-repeat center center/cover;
-  background: linear-gradient(to right bottom, rgba(3, 96, 37, 0.2), rgba(11, 104, 49, 0.2)), url("../../img/hero-img2.jpg") no-repeat center center/cover;
+  background: url("../../img/hero-img-blue.jpg") no-repeat center center/cover;
 }
 
 .nav-bar {
@@ -314,11 +314,11 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 3px;
-  background: rgba(11, 104, 49, 0.65);
+  background: #033b3b;
 }
 
 .nav-bar ul li a:hover {
-  background: #680b42;
+  background: #4e7575;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
@@ -339,8 +339,8 @@ body {
   z-index: 3;
   top: 0;
   right: 0;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 11, 66, 0.95)), to(rgba(62, 6, 39, 0.95)));
-  background: linear-gradient(to bottom right, rgba(104, 11, 66, 0.95), rgba(62, 6, 39, 0.95));
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(3, 59, 59, 0.95)), to(rgba(2, 41, 41, 0.95)));
+  background: linear-gradient(to bottom right, rgba(3, 59, 59, 0.95), rgba(2, 41, 41, 0.95));
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -357,11 +357,11 @@ body {
   display: block;
   font-size: 4rem;
   padding: 1rem 2rem;
-  border-bottom: 1px solid #3e0627;
+  border-bottom: 1px solid #022929;
 }
 
 .side-nav a:hover {
-  background: #3e0627;
+  background: #022929;
 }
 
 .side-nav a:first-child {
@@ -456,13 +456,14 @@ a {
 .section-projects h2 {
   display: inline-block;
   font-size: 4.2rem;
+  text-decoration: underline;
 }
 
 .section-projects-body {
   height: 100vh;
-  max-width: 1280px;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(181, 209, 193, 0.7)), to(rgba(59, 134, 90, 0.7)));
-  background: linear-gradient(to bottom right, rgba(181, 209, 193, 0.7), rgba(59, 134, 90, 0.7));
+  max-width: 96rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(78, 117, 117, 0.95)), to(rgba(3, 59, 59, 0.95)));
+  background: linear-gradient(to bottom right, rgba(78, 117, 117, 0.95), rgba(3, 59, 59, 0.95));
   margin: 0 auto;
 }
 
@@ -480,8 +481,8 @@ a {
 .section-body {
   height: 100vh;
   max-width: 1280px;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(181, 209, 193, 0.7)), to(rgba(59, 134, 90, 0.7)));
-  background: linear-gradient(to bottom right, rgba(181, 209, 193, 0.7), rgba(59, 134, 90, 0.7));
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(237, 182, 161, 0.7)), to(rgba(224, 128, 90, 0.7)));
+  background: linear-gradient(to bottom right, rgba(237, 182, 161, 0.7), rgba(224, 128, 90, 0.7));
   margin: 0 auto;
 }
 

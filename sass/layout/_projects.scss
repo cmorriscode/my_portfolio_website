@@ -7,12 +7,13 @@
     & h2 {
       display: inline-block;
       font-size: 4.2rem;
+      text-decoration: underline;
     }
 
     &-body {
       height: 100vh;
-      max-width: 1280px;
-      background: $gradient-primary-light;
+      max-width: 96rem;
+      background: $gradient-secondary-light;
       margin: 0 auto;
     }
   }
