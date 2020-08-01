@@ -1,0 +1,40 @@
+.section-about {
+  text-align: center;
+  color: $color-white;
+  letter-spacing: 0.2rem;
+  & h2 {
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+
+  &-body {
+    height: 60vh;
+    background: rgba($color-secondary-dark, 1);
+    box-shadow: $shadow-normal;
+    padding: 3rem;
+  }
+
+  & .about-me {
+    display: flex;
+    height: 100%;
+    width: 120rem;
+    margin: 0 auto;
+    border: 0.6rem solid $color-secondary;
+    padding: 0.8rem 1.2rem;
+
+    &-1 {
+      width: 100%;
+      height: 100%;
+      background: $color-secondary-light;
+      flex: 1.5;
+      border: 0.4rem solid $color-secondary;
+    }
+    &-2 {
+      width: 100%;
+      height: 100%;
+      background: $color-secondary-dark;
+      flex: 2;
+    }
+  }
+}
