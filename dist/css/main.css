@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
 *,
 *::after,
 *::before {
@@ -21,22 +22,27 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #fff;
-  font-family: "Lato", sans-serif;
-  background: #e5ebeb;
+  font-family: "Montserrat", sans-serif;
+  background: #070000;
 }
 
 .btn {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
   border: none;
   -webkit-transform: translate(1.5rem, 1rem);
           transform: translate(1.5rem, 1rem);
 }
 
+.btn-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .btn-hero {
-  background: #d34a14;
   color: #eee;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -46,6 +52,13 @@ body {
           animation: move-up 0.8s ease-in-out;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
+  position: absolute;
+  top: 0;
+  right: 12%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  background: #033b3b;
 }
 
 .btn-hero:hover {
@@ -53,7 +66,7 @@ body {
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
   -webkit-transform: translate(1.5rem, 0.5rem);
           transform: translate(1.5rem, 0.5rem);
-  background: #e0805a;
+  background: #4e7575;
 }
 
 .btn-hero:active {
@@ -209,39 +222,44 @@ body {
   }
 }
 
+.arrow {
+  color: #4ecaca;
+}
+
 .header {
   position: relative;
-  height: 100vh;
+  height: 70vh;
 }
 
 .header-text {
   position: absolute;
-  top: 50%;
-  left: 25%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  padding: 1.5rem 2rem;
+  top: 40%;
+  right: 5%;
   border-radius: 1rem;
+  font-size: 0.1rem;
 }
 
 .header-text h2 {
-  font-size: 7rem;
-  background: #111;
+  font-size: 5.4rem;
   padding: 0.7rem 1rem;
-  border-radius: 0.7rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  -webkit-animation: move-in-left 1s ease-out;
-          animation: move-in-left 1s ease-out;
+  -webkit-animation: move-in-left 1.5s ease-out;
+          animation: move-in-left 1.5s ease-out;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
+  color: #111;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.header-text h2 .header-font-style {
+  color: #022929;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
 }
 
 .header-text p {
-  font-size: 5rem;
-  background: #111;
-  padding: 0.7rem 1rem;
-  border-radius: 0.7rem;
   display: inline-block;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
@@ -258,7 +276,7 @@ body {
   content: "";
   top: 0;
   left: 0;
-  background: url("../../img/hero-img-blue.jpg") no-repeat center center/cover;
+  background: url("../../img/cb_bg.jpg") no-repeat center center/cover;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
 }
@@ -295,7 +313,14 @@ body {
   width: 6rem;
   background: url("../../img/simple-selfie-edit.jpg") no-repeat center center/cover;
   border-radius: 50%;
-  border: 0.2rem solid #4e7575;
+  border: 0.2rem solid #033b3b;
+}
+
+.nav-bar-logo p {
+  position: absolute;
+  top: 1.7rem;
+  left: 7rem;
+  font-size: 1.4rem;
 }
 
 .nav-bar ul {
@@ -311,7 +336,7 @@ body {
   text-decoration: none;
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   color: #eee;
   margin: 0 0.5rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
@@ -391,32 +416,6 @@ body {
 a {
   text-decoration: none;
   color: #eee;
-}
-
-@media (max-width: 1500px) {
-  .header-text {
-    top: 50%;
-    left: 30%;
-  }
-  .header-text h2 {
-    font-size: 6rem;
-  }
-  .header-text p {
-    font-size: 4.2rem;
-  }
-}
-
-@media (max-width: 1100px) {
-  .header-text {
-    top: 50%;
-    left: 35%;
-  }
-  .header-text h2 {
-    font-size: 5.3rem;
-  }
-  .header-text p {
-    font-size: 3.5rem;
-  }
 }
 
 @media (max-width: 915px) {
@@ -647,5 +646,10 @@ a {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+}
+
+.test-bio {
+  height: 50vh;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */

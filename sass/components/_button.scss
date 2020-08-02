@@ -1,23 +1,35 @@
 .btn {
-  font-size: 1.8rem;
+  &-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  font-size: 1.2rem;
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
   border: none;
   transform: translate(1.5rem, 1rem);
 
   &-hero {
-    background: $color-primary;
+    // background: $color-primary;
     color: $color-white;
     transition: all 0.3s;
     box-shadow: $shadow-normal;
     animation: move-up 0.8s ease-in-out;
     animation-delay: 0.2s;
+    position: absolute;
+    top: 0;
+    right: 12%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    background: $color-secondary;
 
     &:hover {
       box-shadow: $shadow-rise;
       transform: translate(1.5rem, 0.5rem);
-      background: $color-primary-light;
+      background: $color-secondary-light;
     }
     &:active {
       box-shadow: $shadow-normal;
