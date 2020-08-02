@@ -14,7 +14,31 @@
       line-height: 1.6;
       letter-spacing: 0.3rem;
       max-width: 1000px;
-      margin: 12rem auto;
+      margin: 12rem auto 3.5rem auto;
+    }
+
+    & .contact-me {
+      margin-bottom: 8.5rem;
+      color: $color-white;
+      background: $color-secondary-dark;
+      font-size: 1.8rem;
+      font-weight: 500;
+      box-shadow: $shadow-normal;
+      transition: all 0.4s;
+      display: inline-block;
+      padding: 0.8rem 1.2rem;
+      border-radius: 0.2rem;
+      border: none;
+
+      &:hover {
+        box-shadow: $shadow-rise;
+        transform: translateY(-1px);
+        background: $color-secondary;
+      }
+      &:active {
+        box-shadow: $shadow-normal;
+        transform: translateY(0);
+      }
     }
   }
 }

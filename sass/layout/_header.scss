@@ -99,8 +99,8 @@
       background: rgba($color-secondary, 1);
 
       &:hover {
-        background: $color-tertiary-light;
-        color: $color-black;
+        background: $color-secondary-light;
+        color: $color-white;
         transform: translateY(-1px);
         box-shadow: $shadow-rise;
       }
