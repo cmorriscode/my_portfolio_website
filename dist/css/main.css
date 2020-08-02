@@ -652,4 +652,85 @@ a {
   height: 50vh;
   position: relative;
 }
+
+.about-me {
+  height: 80vh;
+  position: relative;
+}
+
+.about-me-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.about-me-body-description {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  padding: 2rem 3rem;
+  margin-right: 6rem;
+}
+
+.about-me-body-description a {
+  display: inline-block;
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0;
+}
+
+.about-me-body-description a:hover {
+  -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
+  background: #34bebe;
+}
+
+.about-me-body-description h2 {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+.about-me-body-description h2 .about-text {
+  color: #34bebe;
+  letter-spacing: 0.4rem;
+}
+
+.about-me-body-description p {
+  font-size: 1.8rem;
+  line-height: 2.4;
+  font-weight: 300;
+}
+
+.about-me-body-description p:first-of-type {
+  margin: 0.5rem 0;
+}
+
+.about-me-body-description p .about {
+  font-size: 2.4rem;
+  color: aqua;
+}
+
+.about-me-body-description p .about-text {
+  font-size: 2rem;
+  color: #34bebe;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+.about-me .right-side {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  width: cover;
+  background: url("../../img/hero-img-blue.jpg") no-repeat center bottom/cover;
+}
 /*# sourceMappingURL=main.css.map */
