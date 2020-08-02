@@ -43,7 +43,7 @@ body {
 }
 
 .btn-hero {
-  color: #eee;
+  color: #111;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
@@ -56,9 +56,9 @@ body {
   top: 0;
   right: 12%;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.6rem;
-  background: #033b3b;
+  background: #ebeb2f;
 }
 
 .btn-hero:hover {
@@ -66,7 +66,7 @@ body {
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
   -webkit-transform: translate(1.5rem, 0.5rem);
           transform: translate(1.5rem, 0.5rem);
-  background: #4e7575;
+  background: #effa4f;
 }
 
 .btn-hero:active {
@@ -222,10 +222,6 @@ body {
   }
 }
 
-.arrow {
-  color: #4ecaca;
-}
-
 .header {
   position: relative;
   height: 70vh;
@@ -242,21 +238,14 @@ body {
 .header-text h2 {
   font-size: 5.4rem;
   padding: 0.7rem 1rem;
-  -webkit-animation: move-in-left 1.5s ease-out;
-          animation: move-in-left 1.5s ease-out;
+  -webkit-animation: move-in-left 1s ease-out;
+          animation: move-in-left 1s ease-out;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
   color: #111;
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-}
-
-.header-text h2 .header-font-style {
-  color: #022929;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 6rem;
 }
 
 .header-text p {
@@ -348,7 +337,8 @@ body {
 }
 
 .nav-bar ul li a:hover {
-  background: #4e7575;
+  background: #ebeb2f;
+  color: #111;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
@@ -537,6 +527,49 @@ a {
   margin-bottom: 3.2rem;
 }
 
+.span-header-font-style {
+  color: #022929;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+.span-about {
+  font-size: 2.4rem;
+  color: aqua;
+}
+
+.span-about-text {
+  font-size: 2rem;
+  color: #34bebe;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+h2 .span-about-text {
+  font-size: 3.2rem;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.btm-border {
+  display: inline-block;
+  border-bottom: 0.4rem solid #ebeb2f;
+  width: 5.5rem;
+}
+
+.arrow {
+  color: #4ecaca;
+}
+
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -591,7 +624,7 @@ a {
 }
 
 .code-links-code:hover {
-  background: #d34a14;
+  background: #34bebe;
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
   -webkit-transform: translateY(-0.1rem);
@@ -654,7 +687,6 @@ a {
 }
 
 .about-me {
-  height: 80vh;
   position: relative;
 }
 
@@ -664,7 +696,6 @@ a {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  z-index: 1;
 }
 
 .about-me-body-description {
@@ -683,25 +714,19 @@ a {
   margin-right: 0.5rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  padding: 0;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .about-me-body-description a:hover {
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-  background: #34bebe;
+  color: aqua;
 }
 
 .about-me-body-description h2 {
   font-size: 3.2rem;
   font-weight: 300;
-}
-
-.about-me-body-description h2 .about-text {
-  color: #34bebe;
-  letter-spacing: 0.4rem;
 }
 
 .about-me-body-description p {
@@ -714,23 +739,11 @@ a {
   margin: 0.5rem 0;
 }
 
-.about-me-body-description p .about {
-  font-size: 2.4rem;
-  color: aqua;
-}
-
-.about-me-body-description p .about-text {
-  font-size: 2rem;
-  color: #34bebe;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-}
-
 .about-me .right-side {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   width: cover;
-  background: url("../../img/hero-img-blue.jpg") no-repeat center bottom/cover;
+  background: url("../../img/hero-img-blue-crop.jpg") no-repeat center bottom/cover;
 }
 /*# sourceMappingURL=main.css.map */

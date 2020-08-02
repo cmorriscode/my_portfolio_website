@@ -22,9 +22,48 @@
   margin-bottom: 3.2rem;
 }
 
-// .side-block {
-//   height: 2rem;
-//   width: 1rem;
-//   color: black;
-//   border-left: 20px solid black;
-// }
+// Spans
+.span-header-font-style {
+  color: $color-secondary-dark;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+.span-about {
+  font-size: 2.4rem;
+  color: aqua;
+}
+
+.span-about-text {
+  font-size: 2rem;
+  color: $color-primary;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+h2 .span-about-text {
+  font-size: 3.2rem;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+}
+
+//
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.btm-border {
+  display: inline-block;
+  border-bottom: 0.4rem solid $color-tertiary-light;
+  width: 5.5rem;
+}
+
+.arrow {
+  color: $color-primary-variation;
+}

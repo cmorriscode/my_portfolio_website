@@ -1,7 +1,3 @@
-.arrow {
-  color: rgb(78, 202, 202);
-  // font-size: 1.4rem;
-}
 .header {
   position: relative;
   height: 70vh;
@@ -10,39 +6,24 @@
     position: absolute;
     top: 40%;
     right: 5%;
-    // transform: translate(-50%, -50%);
-    // padding: 1.5rem 2rem;
+
     border-radius: 1rem;
     font-size: 0.1rem;
-    // box-shadow: $shadow-normal;
 
     & h2 {
       font-size: 5.4rem;
-      // background: $color-black;
+
       padding: 0.7rem 1rem;
-      // border-radius: 0.7rem;
-      // box-shadow: $shadow-normal;
-      animation: move-in-left 1.5s ease-out;
+
+      animation: move-in-left 1s ease-out;
       animation-delay: 0.2s;
       color: $color-black;
       line-height: 1.2;
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
-
-      & .header-font-style {
-        color: $color-secondary-dark;
-
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 6rem;
-      }
     }
 
     & p {
-      // font-size: 5rem;
-      // background: $color-black;
-      // padding: 0.7rem 1rem;
-      // border-radius: 0.7rem;
       display: inline-block;
       box-shadow: $shadow-normal;
       animation: move-in-right 1s ease-out;
@@ -82,10 +63,7 @@
     position: absolute;
     top: 0;
     left: 1.5rem;
-    // font-size: 2.5rem;
-    // background: $color-black;
-    // padding: 0.5rem 1rem;
-    // border-radius: 0.1rem;
+
     box-shadow: $shadow-normal;
     height: 6rem;
     width: 6rem;
@@ -120,7 +98,8 @@
       background: rgba($color-secondary, 1);
 
       &:hover {
-        background: $color-secondary-light;
+        background: $color-tertiary-light;
+        color: $color-black;
         transform: translateY(-1px);
         box-shadow: $shadow-rise;
       }

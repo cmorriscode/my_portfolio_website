@@ -12,8 +12,7 @@
   transform: translate(1.5rem, 1rem);
 
   &-hero {
-    // background: $color-primary;
-    color: $color-white;
+    color: $color-black;
     transition: all 0.3s;
     box-shadow: $shadow-normal;
     animation: move-up 0.8s ease-in-out;
@@ -22,14 +21,14 @@
     top: 0;
     right: 12%;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.6rem;
-    background: $color-secondary;
+    background: $color-tertiary-light;
 
     &:hover {
       box-shadow: $shadow-rise;
       transform: translate(1.5rem, 0.5rem);
-      background: $color-secondary-light;
+      background: $color-tertiary;
     }
     &:active {
       box-shadow: $shadow-normal;

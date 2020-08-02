@@ -1,23 +1,18 @@
-// $color-primary: #d34a14;
-// $color-primary-dark: #93330e;
-// $color-primary-light: #e0805a;
-// $color-primary-lightest: #edb6a1;
-// $color-primary-white: #faece7;
-
-// $color-secondary: #420d09;
-// $color-secondary-dark: #022929;
-// $color-secondary-light: #4e7575;
-// $color-secondary-white: #e5ebeb;
-$color-primary: #d34a14;
+// Colors
+$color-primary: #34bebe;
 $color-primary-dark: #93330e;
-$color-primary-light: #e0805a;
+$color-primary-light: aqua;
 $color-primary-lightest: #edb6a1;
 $color-primary-white: #faece7;
+$color-primary-variation: #4ecaca;
 
 $color-secondary: #033b3b;
 $color-secondary-dark: #022929;
 $color-secondary-light: #4e7575;
 $color-secondary-white: #e5ebeb;
+
+$color-tertiary: #effa4f;
+$color-tertiary-light: rgb(235, 235, 47);
 
 $color-white: #eee;
 $color-black: #111;
@@ -26,6 +21,7 @@ $color-black: #111;
 $shadow-normal: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
 $shadow-rise: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
 
+// Gradients
 $gradient-primary-dark: linear-gradient(
   to right bottom,
   rgba($color-primary, 0.2),

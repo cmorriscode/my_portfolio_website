@@ -1,13 +1,11 @@
 .about-me {
-  height: 80vh;
+  // height: 80vh;
   position: relative;
 
   &-body {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    // text-align: center;
-    z-index: 1;
 
     &-description {
       flex: 3;
@@ -15,29 +13,25 @@
       line-height: 1.8;
       padding: 2rem 3rem;
       margin-right: 6rem;
+      // animation: move-in-right 1.5s ease-out;
+      // animation-delay: 0.2s;
 
       a {
         display: inline-block;
         font-size: 3rem;
         margin-right: 0.5rem;
         box-shadow: $shadow-normal;
-        transition: all 0.3s;
-        padding: 0;
+        transition: all 0.7s;
 
         &:hover {
           box-shadow: $shadow-rise;
-          background: rgb(52, 190, 190);
+          color: $color-primary-light;
         }
       }
 
       & h2 {
         font-size: 3.2rem;
         font-weight: 300;
-
-        .about-text {
-          color: rgb(52, 190, 190);
-          letter-spacing: 0.4rem;
-        }
       }
 
       & p {
@@ -46,30 +40,16 @@
         font-weight: 300;
 
         &:first-of-type {
-          // font-size: 1.4rem;
           margin: 0.5rem 0;
-        }
-
-        .about {
-          font-size: 2.4rem;
-          color: aqua;
-        }
-
-        .about-text {
-          font-size: 2rem;
-          color: rgb(52, 190, 190);
-          font-weight: 500;
-          letter-spacing: 0.2rem;
         }
       }
     }
   }
 
   & .right-side {
-    // margin-top: -10rem;
     flex: 2;
     width: cover;
-    background: url("../../img/hero-img-blue.jpg") no-repeat center bottom /
+    background: url("../../img/hero-img-blue-crop.jpg") no-repeat center bottom /
       cover;
   }
 }
