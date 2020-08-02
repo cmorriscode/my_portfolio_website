@@ -1,6 +1,6 @@
 // Colors
 $color-primary: #34bebe;
-$color-primary-dark: #93330e;
+$color-primary-dark: #0c8488;
 $color-primary-light: aqua;
 $color-primary-lightest: #edb6a1;
 $color-primary-white: #faece7;
@@ -24,8 +24,8 @@ $shadow-rise: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
 // Gradients
 $gradient-primary-dark: linear-gradient(
   to right bottom,
-  rgba($color-primary, 0.2),
-  rgba($color-primary-dark, 0.2)
+  rgba($color-primary, 0.4),
+  rgba($color-primary-dark, 0.4)
 );
 
 $gradient-primary-light: linear-gradient(

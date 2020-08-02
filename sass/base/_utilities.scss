@@ -49,6 +49,19 @@ h2 .span-about-text {
   letter-spacing: 0.4rem;
 }
 
+// .span-primary {
+//   color: $color-primary;
+// }
+
+.span-primary {
+  color: $color-primary;
+  font-size: 7.2rem;
+  letter-spacing: 0.7rem;
+}
+
+.span-primary-light {
+  color: $color-primary-light;
+}
 //
 .inline-block {
   display: inline-block;

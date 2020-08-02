@@ -290,6 +290,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 20;
 }
 
 .nav-bar-logo {
@@ -552,6 +553,16 @@ h2 .span-about-text {
   letter-spacing: 0.4rem;
 }
 
+.span-primary {
+  color: #34bebe;
+  font-size: 7.2rem;
+  letter-spacing: 0.7rem;
+}
+
+.span-primary-light {
+  color: aqua;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -612,7 +623,7 @@ h2 .span-about-text {
 }
 
 .code-links-code {
-  background: #93330e;
+  background: #0c8488;
   padding: 0.8rem 1.2rem;
   border-radius: 1rem;
   border: none;
@@ -745,5 +756,114 @@ h2 .span-about-text {
           flex: 2;
   width: cover;
   background: url("../../img/hero-img-blue-crop.jpg") no-repeat center bottom/cover;
+}
+
+.skills .btm-border {
+  -webkit-transform: translateX(1rem);
+          transform: translateX(1rem);
+}
+
+.skills-container {
+  height: 70vh;
+  margin: 0 auto;
+  background: #070000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+}
+
+.skills-img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  position: relative;
+}
+
+.skills-img:before {
+  content: "";
+  height: 70%;
+  width: 70%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(52, 190, 190, 0.4)), to(rgba(12, 132, 136, 0.4))), url("../../img/books.jpg") no-repeat center center/cover;
+  background: linear-gradient(to right bottom, rgba(52, 190, 190, 0.4), rgba(12, 132, 136, 0.4)), url("../../img/books.jpg") no-repeat center center/cover;
+}
+
+.skills-list {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 0.6rem;
+}
+
+.skills-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills-list-container h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.skills-list-container h3 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  color: #0c8488;
+  line-height: 1.4;
+  letter-spacing: 0.4rem;
+}
+
+.skills-list-container p {
+  font-size: 1.6rem;
+  line-height: 2.6;
+}
+
+.skills-list-container .knowledge {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.skills-list-container .familiar {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.icon-laptop, .icon-code {
+  color: #34bebe;
+}
+
+.icon-css {
+  color: blue;
+}
+
+.icon-html {
+  color: orangered;
+}
+
+.build-container {
+  background: #070707;
+  padding: 4rem;
+  text-align: center;
+}
+
+.build-container:first-child {
+  text-align: center;
+}
+
+.build-container h2 {
+  font-weight: 300;
+  font-size: 7.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.3rem;
+  max-width: 1000px;
+  margin: 12rem auto;
 }
 /*# sourceMappingURL=main.css.map */
