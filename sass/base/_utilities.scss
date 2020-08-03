@@ -70,10 +70,15 @@ h2 .span-about-text {
 .inline {
   display: inline;
 }
-
 .btm-border {
   display: inline-block;
   border-bottom: 0.4rem solid $color-tertiary-light;
+  width: 5.5rem;
+}
+
+.btm-border-primary {
+  display: inline-block;
+  border-bottom: 0.4rem solid $color-primary;
   width: 5.5rem;
 }
 
