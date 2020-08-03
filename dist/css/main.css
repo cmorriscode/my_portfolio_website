@@ -536,7 +536,7 @@ h2 .span-about-text {
 
 .btm-border-primary {
   display: inline-block;
-  border-bottom: 0.4rem solid #34bebe;
+  border-bottom: 0.1rem solid #34bebe;
   width: 5.5rem;
 }
 
@@ -544,65 +544,8 @@ h2 .span-about-text {
   color: #4ecaca;
 }
 
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #011717;
-  padding: 0.6rem 1rem;
-  color: #eee;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  line-height: 1.6;
-}
-
-.card-structure h3 {
-  font-size: 2.2rem;
-  border: 0.4rem solid rgba(78, 117, 117, 0.3);
-}
-
-.card-img-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  overflow: hidden;
-}
-
-.card-img-container .card-img img {
-  width: 100%;
-  border: 1px solid #4e7575;
-}
-
-.card-description {
-  padding: 0.6rem 0.8rem;
-}
-
-.card-description p {
-  font-size: 1.6rem;
-}
-
-.code-links-code {
-  background: #0c8488;
-  padding: 0.8rem 1.2rem;
-  border-radius: 1rem;
-  border: none;
-  font-size: 1.8rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.code-links-code:hover {
-  background: #34bebe;
-  -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-          box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-  -webkit-transform: translateY(-0.1rem);
-          transform: translateY(-0.1rem);
+.current-page {
+  text-decoration: underline !important;
 }
 
 .section-about {
@@ -920,20 +863,24 @@ h2 .span-about-text {
   max-width: 100%;
 }
 
-.projects {
-  height: 75vh;
-}
-
 .projects-title {
-  max-width: 110rem;
+  max-width: 140rem;
   margin: 0 auto;
+  -webkit-animation: move-in-left 1s ease-out;
+          animation: move-in-left 1s ease-out;
 }
 
 .projects-title h1 {
-  font-size: 3.4rem;
+  font-size: 5rem;
   font-weight: 300;
   letter-spacing: 0.6rem;
-  margin-top: 0.6rem;
+  margin: 0.6rem 0 1.6rem 0;
+}
+
+.projects-title p {
+  font-size: 1.6rem;
+  line-height: 2.4;
+  letter-spacing: 0.1rem;
 }
 
 .projects-container {
@@ -947,11 +894,11 @@ h2 .span-about-text {
   text-align: center;
   max-width: 120rem;
   margin: 0 auto;
-  height: 100%;
+  height: 60vh;
 }
 
 .projects-container h2 {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   letter-spacing: 0.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
@@ -959,10 +906,15 @@ h2 .span-about-text {
 
 .projects-websites {
   height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .projects-apps {
   height: 100%;
-  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 /*# sourceMappingURL=main.css.map */

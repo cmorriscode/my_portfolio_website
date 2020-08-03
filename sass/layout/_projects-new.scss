@@ -23,17 +23,22 @@
 }
 
 .projects {
-  height: 75vh;
-
   &-title {
-    max-width: 110rem;
+    max-width: 140rem;
     margin: 0 auto;
+    animation: move-in-left 1s ease-out;
 
     & h1 {
-      font-size: 3.4rem;
+      font-size: 5rem;
       font-weight: 300;
       letter-spacing: 0.6rem;
-      margin-top: 0.6rem;
+      margin: 0.6rem 0 1.6rem 0;
+    }
+
+    & p {
+      font-size: 1.6rem;
+      line-height: 2.4;
+      letter-spacing: 0.1rem;
     }
   }
 
@@ -43,10 +48,10 @@
     text-align: center;
     max-width: 120rem;
     margin: 0 auto;
-    height: 100%;
+    height: 60vh;
 
     & h2 {
-      font-size: 2.6rem;
+      font-size: 3.6rem;
       letter-spacing: 0.2rem;
       font-weight: 500;
       margin-bottom: 0.4rem;
@@ -55,9 +60,11 @@
 
   &-websites {
     height: 100%;
+    flex: 1;
   }
   &-apps {
     height: 100%;
-    width: 100%;
+    // width: 100%;
+    flex: 1;
   }
 }

@@ -78,10 +78,16 @@ h2 .span-about-text {
 
 .btm-border-primary {
   display: inline-block;
-  border-bottom: 0.4rem solid $color-primary;
+  border-bottom: 0.1rem solid $color-primary;
   width: 5.5rem;
 }
 
 .arrow {
   color: $color-primary-variation;
+}
+
+.current-page {
+  // background: $color-secondary-dark !important;
+  text-decoration: underline !important;
+  // font-size: 1.rem !important;
 }
