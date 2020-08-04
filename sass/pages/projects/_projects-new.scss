@@ -55,25 +55,134 @@
     text-align: center;
     // max-width: 120rem;
     margin: 0 auto;
-    height: 60vh;
+    // height: 60vh;
     // background: rgb(7, 7, 7);
 
     & h2 {
+      // max-width: 140rem;
       font-size: 3.6rem;
       letter-spacing: 0.2rem;
-      font-weight: 500;
+      font-weight: 400;
       margin-bottom: 0.4rem;
+      // text-align: right;
     }
+    // & .btm-border-primary {
+    // }
   }
 
   &-websites {
     height: 100%;
     flex: 1;
+    margin: 0 auto;
+    padding: 1rem;
+
+    &-display {
+      display: flex;
+
+      & .card {
+        max-width: 90rem;
+        // background: rgb(7, 7, 7);
+        display: flex;
+        &-img {
+          position: relative;
+          width: 100%;
+          flex: 1.5;
+          padding: 1rem;
+          &-photo {
+            position: absolute;
+            width: 75%;
+            box-shadow: 0 0.6rem 1.6rem rgba($color-primary, 0.7);
+            border-radius: 0.2rem;
+            z-index: 10;
+            transition: all 0.4s;
+
+            &-1 {
+              left: -3.5rem;
+              top: 1.5rem;
+            }
+            &-2 {
+              right: 0.5rem;
+              top: 4rem;
+            }
+            &-3 {
+              left: 2rem;
+              top: 10.5rem;
+            }
+
+            &:hover {
+              // outline: 0.2rem solid $color-tertiary;
+              transform: scale(1.05) translateY(-0.5rem);
+              box-shadow: 0 0.8rem 2rem rgba($color-primary, 0.8);
+              z-index: 30;
+            }
+          }
+        }
+        &-content {
+          width: 100%;
+          flex: 2.5;
+          margin-left: 4.5rem;
+          text-align: left;
+
+          &-view {
+            display: flex;
+            flex-direction: row-reverse;
+            &-button {
+              margin-top: 0.5rem;
+              display: inline-block;
+              padding: 0.2rem 0.4rem;
+              background: $color-secondary;
+              color: $color-white;
+              font-size: 1.4rem;
+              font-weight: 500;
+              transition: 0.4s all;
+
+              &:hover {
+                background: $color-primary-dark;
+                color: $color-white;
+              }
+            }
+            &-app {
+            }
+            &-code {
+              margin-right: 0.6rem;
+            }
+          }
+
+          & h3 {
+            font-size: 2.6rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            line-height: 1.2;
+            text-align: right;
+            color: $color-primary;
+          }
+
+          & p {
+            font-size: 1.6rem;
+            line-height: 1.6;
+          }
+
+          & .tech-used {
+            text-align: right;
+            font-size: 1.2rem;
+            color: rgba($color-white, 0.9);
+          }
+        }
+      }
+    }
   }
   &-apps {
     height: 100%;
     // width: 100%;
     flex: 1;
+    // text-align: left !important;
+    // max-width: 140rem;
+    // margin: 0 auto;
+
+    // & h2 {
+    //   // max-width: 140rem;
+
+    // }
   }
 }
 
