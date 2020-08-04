@@ -824,7 +824,13 @@ h2 .span-about-text {
   max-width: 100%;
 }
 
-.projects-title {
+.projects,
+.contact {
+  overflow-x: hidden;
+}
+
+.projects-title,
+.contact-title {
   max-width: 140rem;
   margin: 0 auto 3.2rem auto;
   -webkit-animation: move-in-left 1s ease-out;
@@ -832,20 +838,23 @@ h2 .span-about-text {
   padding: 0 0 0 2rem;
 }
 
-.projects-title h1 {
+.projects-title h1,
+.contact-title h1 {
   font-size: 5rem;
   font-weight: 300;
   letter-spacing: 0.6rem;
   margin: 0.6rem 0 1.6rem 0;
 }
 
-.projects-title p {
+.projects-title p,
+.contact-title p {
   font-size: 1.6rem;
   line-height: 2.4;
   letter-spacing: 0.1rem;
 }
 
-.projects-container {
+.projects-container,
+.contact-container {
   background: #070707;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -857,16 +866,20 @@ h2 .span-about-text {
   text-align: center;
   max-width: 120rem;
   margin: 0 auto;
+  padding: 4rem 0;
 }
 
-.projects-container h2 {
+.projects-container h2,
+.contact-container h2 {
   font-size: 3.6rem;
   letter-spacing: 0.2rem;
   font-weight: 400;
   margin-bottom: 0.4rem;
 }
 
-.projects-websites, .projects-apps {
+.projects-websites, .projects-apps,
+.contact-websites,
+.contact-apps {
   height: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -875,7 +888,9 @@ h2 .span-about-text {
   padding: 1rem;
 }
 
-.projects-websites-display, .projects-apps-display {
+.projects-websites-display, .projects-apps-display,
+.contact-websites-display,
+.contact-apps-display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -931,6 +946,12 @@ h2 .span-about-text {
 .card-img-photo-3 {
   left: 2rem;
   top: 10.5rem;
+}
+
+.card-img-photo-4 {
+  left: 3rem;
+  top: 1.4rem;
+  width: 60%;
 }
 
 .card-img-photo:hover {
@@ -1012,7 +1033,7 @@ h2 .span-about-text {
   letter-spacing: 0.1rem;
   line-height: 1.2;
   text-align: right;
-  color: #34bebe;
+  color: aqua;
 }
 
 .card-content p {
@@ -1137,5 +1158,10 @@ h2 .span-about-text {
     font-size: 1.2rem;
     color: rgba(238, 238, 238, 0.9);
   }
+}
+
+.contact-underline {
+  -webkit-transform: translateX(18.6rem);
+          transform: translateX(18.6rem);
 }
 /*# sourceMappingURL=main.css.map */
