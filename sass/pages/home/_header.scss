@@ -95,11 +95,11 @@
       margin: 0 0.5rem;
       box-shadow: $shadow-normal;
       transition: all 0.3s;
-      border-radius: 0.1rem;
-      background: rgba($color-secondary, 1);
+      border-radius: 0.3rem;
+      background: rgba($color-secondary-dark, 1);
 
       &:hover {
-        background: $color-secondary-light;
+        background: $color-secondary;
         // font-weight: bold;
         color: $color-white;
         transform: translateY(-1px);
@@ -253,4 +253,8 @@ a {
   .nav-bar-open-slide {
     display: none;
   }
+}
+
+.home-underline {
+  transform: translateX(1.2rem);
 }

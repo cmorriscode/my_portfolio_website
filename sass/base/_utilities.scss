@@ -45,8 +45,8 @@
 
 h2 .span-about-text {
   font-size: 3.2rem;
-  font-weight: 300;
-  letter-spacing: 0.4rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
 }
 
 // .span-primary {
@@ -76,6 +76,12 @@ h2 .span-about-text {
   width: 5.5rem;
 }
 
+.btm-border-variation {
+  display: inline-block;
+  border-bottom: 0.2rem solid $color-secondary-light;
+  width: 5.5rem;
+}
+
 .btm-border-primary {
   display: inline-block;
   border-bottom: 0.1rem solid $color-primary;
@@ -84,10 +90,4 @@ h2 .span-about-text {
 
 .arrow {
   color: $color-primary-variation;
-}
-
-.current-page {
-  // background: $color-secondary-dark !important;
-  text-decoration: underline !important;
-  // font-size: 1.rem !important;
 }

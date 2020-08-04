@@ -16,6 +16,10 @@
 
 .projects-header {
   height: 14rem;
+
+  &::before {
+    background: url("../../img/cb_bg.jpg") no-repeat center center / cover;
+  }
 }
 
 .projects-nav-bar {
@@ -25,8 +29,9 @@
 .projects {
   &-title {
     max-width: 140rem;
-    margin: 0 auto;
+    margin: 0 auto 3.2rem auto;
     animation: move-in-left 1s ease-out;
+    padding: 0 0 0 2rem;
 
     & h1 {
       font-size: 5rem;
@@ -41,14 +46,17 @@
       letter-spacing: 0.1rem;
     }
   }
+  // &-nav-bar-container {
+  // }
 
   &-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 120rem;
+    // max-width: 120rem;
     margin: 0 auto;
     height: 60vh;
+    // background: rgb(7, 7, 7);
 
     & h2 {
       font-size: 3.6rem;
@@ -67,4 +75,8 @@
     // width: 100%;
     flex: 1;
   }
+}
+
+.projects-underline {
+  transform: translateX(9.5rem);
 }

@@ -30,10 +30,8 @@ body {
   font-size: 1.2rem;
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  border-radius: 0.1rem;
+  border-radius: 0.3rem;
   border: none;
-  -webkit-transform: translate(1.5rem, 1rem);
-          transform: translate(1.5rem, 1rem);
 }
 
 .btn-container {
@@ -43,6 +41,8 @@ body {
 }
 
 .btn-hero {
+  -webkit-transform: translate(1.5rem, 1rem);
+          transform: translate(1.5rem, 1rem);
   color: #111;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -64,8 +64,8 @@ body {
 .btn-hero:hover {
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-  -webkit-transform: translate(1.5rem, 0.5rem);
-          transform: translate(1.5rem, 0.5rem);
+  -webkit-transform: translate(1.5rem, 0.9rem);
+          transform: translate(1.5rem, 0.9rem);
   background: #effa4f;
 }
 
@@ -333,12 +333,12 @@ body {
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border-radius: 0.1rem;
-  background: #033b3b;
+  border-radius: 0.3rem;
+  background: #022929;
 }
 
 .nav-bar ul li a:hover {
-  background: #4e7575;
+  background: #033b3b;
   color: #eee;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
@@ -457,6 +457,11 @@ a {
   }
 }
 
+.home-underline {
+  -webkit-transform: translateX(1.2rem);
+          transform: translateX(1.2rem);
+}
+
 .margin-top-small {
   margin-top: 0.8rem;
 }
@@ -506,8 +511,8 @@ a {
 
 h2 .span-about-text {
   font-size: 3.2rem;
-  font-weight: 300;
-  letter-spacing: 0.4rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
 }
 
 .span-primary {
@@ -534,6 +539,12 @@ h2 .span-about-text {
   width: 5.5rem;
 }
 
+.btm-border-variation {
+  display: inline-block;
+  border-bottom: 0.2rem solid #4e7575;
+  width: 5.5rem;
+}
+
 .btm-border-primary {
   display: inline-block;
   border-bottom: 0.1rem solid #34bebe;
@@ -542,60 +553,6 @@ h2 .span-about-text {
 
 .arrow {
   color: #4ecaca;
-}
-
-.current-page {
-  text-decoration: underline !important;
-}
-
-.section-about {
-  text-align: center;
-  color: #eee;
-  letter-spacing: 0.2rem;
-}
-
-.section-about h2 {
-  display: inline-block;
-  font-size: 3rem;
-  text-decoration: underline;
-}
-
-.section-about-body {
-  height: 60vh;
-  background: #022929;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  padding: 3rem;
-}
-
-.section-about .about-me {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  width: 120rem;
-  margin: 0 auto;
-  border: 0.6rem solid #033b3b;
-  padding: 0.8rem 1.2rem;
-}
-
-.section-about .about-me-1 {
-  width: 100%;
-  height: 100%;
-  background: #4e7575;
-  -webkit-box-flex: 1.5;
-      -ms-flex: 1.5;
-          flex: 1.5;
-  border: 0.4rem solid #033b3b;
-}
-
-.section-about .about-me-2 {
-  width: 100%;
-  height: 100%;
-  background: #022929;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
 }
 
 .test-bio {
@@ -717,12 +674,12 @@ h2 .span-about-text {
 }
 
 .skills-list-container h3 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 300;
   margin-top: 2rem;
   color: #0c8488;
   line-height: 1.4;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
 }
 
 .skills-list-container p {
@@ -785,7 +742,7 @@ h2 .span-about-text {
   transition: all 0.4s;
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  border-radius: 0.1rem;
+  border-radius: 0.3rem;
   border: none;
 }
 
@@ -859,15 +816,20 @@ h2 .span-about-text {
   height: 14rem;
 }
 
+.projects-header::before {
+  background: url("../../img/cb_bg.jpg") no-repeat center center/cover;
+}
+
 .projects-nav-bar {
   max-width: 100%;
 }
 
 .projects-title {
   max-width: 140rem;
-  margin: 0 auto;
+  margin: 0 auto 3.2rem auto;
   -webkit-animation: move-in-left 1s ease-out;
           animation: move-in-left 1s ease-out;
+  padding: 0 0 0 2rem;
 }
 
 .projects-title h1 {
@@ -892,7 +854,6 @@ h2 .span-about-text {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  max-width: 120rem;
   margin: 0 auto;
   height: 60vh;
 }
@@ -916,5 +877,10 @@ h2 .span-about-text {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.projects-underline {
+  -webkit-transform: translateX(9.5rem);
+          transform: translateX(9.5rem);
 }
 /*# sourceMappingURL=main.css.map */
