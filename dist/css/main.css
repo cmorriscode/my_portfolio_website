@@ -478,6 +478,9 @@ a {
   .header-text span {
     font-size: 5.2rem;
   }
+  .about-me {
+    margin-bottom: -5rem !important;
+  }
 }
 
 @media (max-width: 736px) {
@@ -509,6 +512,50 @@ a {
   }
   .header-text span {
     font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .about-me {
+    margin-bottom: -3rem !important;
+  }
+  .about-me .right-side {
+    display: none !important;
+  }
+  .build-container {
+    padding: 4rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .build-container h2 {
+    font-size: 4.6rem !important;
+    margin-top: 2rem !important;
+  }
+  .build-container span {
+    font-size: 5.6rem;
+  }
+  .build-container .contact-me {
+    margin-bottom: 2rem !important;
+  }
+  .skills-img {
+    display: none;
+  }
+  .skills {
+    margin-top: 2rem !important;
+  }
+  .skills-list {
+    text-align: center;
+  }
+  .skills h2 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    letter-spacing: 0.1rem;
+    padding: 0;
+  }
+  .skills h3 {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    margin-top: 2rem;
   }
 }
 
@@ -576,18 +623,24 @@ a {
   .about-me {
     text-align: center;
     margin-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
   .about-me .right-side {
     display: none;
   }
   .build-container {
-    padding: 0 !important;
+    padding: 2rem !important;
+    margin-bottom: 0rem !important;
   }
   .build-container h2 {
-    font-size: 4.2rem !important;
+    font-size: 4.6rem !important;
+    margin-top: 2rem !important;
   }
   .build-container span {
     font-size: 5.6rem;
+  }
+  .build-container .contact-me {
+    margin-bottom: 4rem !important;
   }
   .skills-img {
     display: none;
@@ -785,6 +838,14 @@ h2 .span-about-text {
           transform: translateX(1rem);
 }
 
+.skills h2 {
+  margin-top: 1rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
 .skills-container {
   margin: 0 auto;
   background: #070000;
@@ -805,7 +866,7 @@ h2 .span-about-text {
   content: "";
   height: 70%;
   width: 70%;
-  top: 4rem;
+  margin-top: 13rem;
   left: 0;
   position: absolute;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(52, 190, 190, 0.4)), to(rgba(12, 132, 136, 0.4))), url("../../img/studying.jpg") no-repeat center center/cover;
@@ -833,7 +894,7 @@ h2 .span-about-text {
 
 .skills-list-container h3 {
   font-size: 2.6rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 2rem;
   color: #0c8488;
   line-height: 1.4;

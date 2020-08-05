@@ -20,6 +20,6 @@ document.querySelector(".btn-close").addEventListener("click", (e) => {
 });
 
 AOS.init({
-  offset: 200,
-  duration: 800,
+  offset: 125,
+  duration: 1000,
 });
