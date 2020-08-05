@@ -2,6 +2,13 @@
   position: relative;
   height: 70vh;
 
+  & .btm-border-header {
+    &:last-child {
+      transform: translate(-5.4rem, 4rem);
+      margin-bottom: 1.4rem;
+    }
+  }
+
   &-text {
     position: absolute;
     top: 30%;
