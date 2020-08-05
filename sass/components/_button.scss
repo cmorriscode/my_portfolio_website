@@ -27,12 +27,12 @@
 
     &:hover {
       box-shadow: $shadow-rise;
-      transform: translate(7rem, 0.9rem);
+      transform: translate(4.5rem, 0.9rem);
       background: $color-tertiary;
     }
     &:active {
       box-shadow: $shadow-normal;
-      transform: translate(7rem, 0) scale(1);
+      transform: translate(4.5rem, 1rem) scale(1);
     }
   }
 }
