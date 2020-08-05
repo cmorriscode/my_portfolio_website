@@ -31,7 +31,7 @@
 
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 6.5rem;
 }
 
 .span-about {
@@ -76,6 +76,12 @@ h2 .span-about-text {
 .btm-border {
   display: inline-block;
   border-bottom: 0.4rem solid $color-tertiary-light;
+  width: 5.5rem;
+}
+
+.btm-border-header {
+  display: inline-block;
+  border-bottom: 0.6rem solid $color-secondary;
   width: 5.5rem;
 }
 

@@ -11,7 +11,7 @@
   border: none;
 
   &-hero {
-    transform: translate(1.5rem, 1rem);
+    transform: translate(4.5rem, 1rem);
     color: $color-black;
     transition: all 0.3s;
     box-shadow: $shadow-normal;
@@ -27,12 +27,12 @@
 
     &:hover {
       box-shadow: $shadow-rise;
-      transform: translate(1.5rem, 0.9rem);
+      transform: translate(7rem, 0.9rem);
       background: $color-tertiary;
     }
     &:active {
       box-shadow: $shadow-normal;
-      transform: translate(1.5rem, 0) scale(1);
+      transform: translate(7rem, 0) scale(1);
     }
   }
 }

@@ -41,8 +41,8 @@ body {
 }
 
 .btn-hero {
-  -webkit-transform: translate(1.5rem, 1rem);
-          transform: translate(1.5rem, 1rem);
+  -webkit-transform: translate(4.5rem, 1rem);
+          transform: translate(4.5rem, 1rem);
   color: #111;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -64,16 +64,16 @@ body {
 .btn-hero:hover {
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-  -webkit-transform: translate(1.5rem, 0.9rem);
-          transform: translate(1.5rem, 0.9rem);
+  -webkit-transform: translate(7rem, 0.9rem);
+          transform: translate(7rem, 0.9rem);
   background: #effa4f;
 }
 
 .btn-hero:active {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  -webkit-transform: translate(1.5rem, 0) scale(1);
-          transform: translate(1.5rem, 0) scale(1);
+  -webkit-transform: translate(7rem, 0) scale(1);
+          transform: translate(7rem, 0) scale(1);
 }
 
 @-webkit-keyframes move-in-left {
@@ -229,14 +229,12 @@ body {
 
 .header-text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   right: 5%;
-  border-radius: 1rem;
-  font-size: 0.1rem;
 }
 
-.header-text h2 {
-  font-size: 5.4rem;
+.header-text h1 {
+  font-size: 6.2rem;
   padding: 0.7rem 1rem;
   -webkit-animation: move-in-left 1s ease-out;
           animation: move-in-left 1s ease-out;
@@ -413,45 +411,110 @@ a {
   color: #eee;
 }
 
-@media (max-width: 915px) {
-  .nav-bar-list {
-    display: none;
-  }
+@media (max-width: 1500px) {
   .header-text {
-    top: 50%;
-    left: 35%;
+    position: absolute;
+    top: 35%;
+    right: 3%;
   }
-  .header-text h2 {
-    font-size: 4.8rem;
+  .header-text h1 {
+    font-size: 5.8rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
   }
-  .header-text p {
-    font-size: 3.1rem;
+  .header-text span {
+    font-size: 6.2rem;
   }
 }
 
-@media (max-width: 500px) {
-  .nav-bar-logo {
-    font-size: 2.1rem;
+@media (max-width: 1280px) {
+  .header-text {
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+  .header-text h1 {
+    font-size: 5rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 5.4rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header::before {
+    background: url("../../img/cb_bg.jpg") no-repeat center right/cover;
   }
   .header-text {
-    top: 50%;
-    left: 35%;
+    top: 35%;
+    right: 3%;
   }
-  .header-text h2 {
-    font-size: 4rem;
+  .header-text h1 {
+    font-size: 4.6rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
   }
-  .header-text p {
-    font-size: 2.8rem;
+  .header-text span {
+    font-size: 5.2rem;
   }
-  .side-nav .btn-close {
+}
+
+@media (max-width: 900px) {
+  .header-text {
+    top: 35%;
+    right: 3%;
+  }
+  .header-text h1 {
+    font-size: 4.4rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width: 736px) {
+  .header-text {
+    top: 40%;
+    right: 3%;
+  }
+  .header-text h1 {
+    font-size: 4.4rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-text {
+    top: 30%;
+    right: 3%;
+  }
+  .header-text h1 {
+    font-size: 3.8rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 915px) {
+  .nav-bar-list {
     display: none;
-    position: absolute;
-    translate: translateX(-5rem);
-  }
-  .side-nav .nav-bar-open-slide-click {
-    -webkit-transform: translateX(-5rem);
-            transform: translateX(-5rem);
-    padding: 1rem 1.5rem;
   }
 }
 
@@ -464,6 +527,84 @@ a {
 .home-underline {
   -webkit-transform: translateX(1.2rem);
           transform: translateX(1.2rem);
+}
+
+@media (max-height: 415px) {
+  .header {
+    height: 95vh;
+  }
+  .header-text {
+    top: 25%;
+  }
+  .header::before {
+    background: url("../../img/cb_bg.jpg") no-repeat center center;
+  }
+  .side-nav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(3, 59, 59, 0.95)), to(rgba(2, 41, 41, 0.95)));
+    background: linear-gradient(to bottom right, rgba(3, 59, 59, 0.95), rgba(2, 41, 41, 0.95));
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .side-nav .btn-close {
+    display: none;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+  }
+  .side-nav a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 1.6rem 2.4rem;
+    border-bottom: 1px solid #022929;
+  }
+  .side-nav a:hover {
+    background: #022929;
+  }
+  .side-nav a:first-child {
+    font-size: 3rem;
+  }
+  .side-nav a:nth-child(2) {
+    margin-top: 5rem;
+  }
+  .about-me {
+    text-align: center;
+    margin-top: 1rem !important;
+  }
+  .about-me .right-side {
+    display: none;
+  }
+  .build-container {
+    padding: 0 !important;
+  }
+  .build-container h2 {
+    font-size: 4.2rem !important;
+  }
+  .build-container span {
+    font-size: 5.6rem;
+  }
+  .skills-img {
+    display: none;
+  }
+  .skills {
+    margin-top: 2rem !important;
+  }
+  .skills-list {
+    text-align: center;
+  }
+  .skills h2 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    letter-spacing: 0.1rem;
+    padding: 0;
+  }
 }
 
 .margin-top-small {
@@ -502,7 +643,7 @@ a {
   color: #022929;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 6.5rem;
 }
 
 .span-about {
@@ -544,6 +685,12 @@ h2 .span-about-text {
 .btm-border {
   display: inline-block;
   border-bottom: 0.4rem solid #ebeb2f;
+  width: 5.5rem;
+}
+
+.btm-border-header {
+  display: inline-block;
+  border-bottom: 0.6rem solid #033b3b;
   width: 5.5rem;
 }
 
@@ -639,7 +786,6 @@ h2 .span-about-text {
 }
 
 .skills-container {
-  height: 70vh;
   margin: 0 auto;
   background: #070000;
   display: -webkit-box;
