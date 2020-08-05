@@ -455,7 +455,7 @@ a {
   }
 }
 
-@media (min-width: 916px) {
+@media (min-width: 915px) {
   .nav-bar-open-slide {
     display: none;
   }
@@ -627,6 +627,10 @@ h2 .span-about-text {
           flex: 2;
   width: 100%;
   background: url("../../img/hero-img-blue-crop.jpg") no-repeat center center/cover;
+}
+
+.skills {
+  overflow-x: hidden;
 }
 
 .skills .btm-border {
