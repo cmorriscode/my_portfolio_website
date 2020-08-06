@@ -4,6 +4,10 @@
   display: flex;
   // box-shadow: 0 0.2rem 0.4rem rgba($color-primary-light, 0.3);
   padding: 0.6rem 1rem;
+
+  &:last-of-type {
+    padding-bottom: 4rem;
+  }
   &-img {
     position: relative;
     width: 100%;
@@ -50,6 +54,7 @@
     text-align: left;
 
     &-view {
+      padding: 0.4rem;
       display: flex;
 
       justify-content: center;
@@ -103,9 +108,11 @@
       line-height: 1.2;
       text-align: right;
       color: $color-primary-light;
+      padding: 0.8rem 0.6rem 0.6rem 0.6rem;
     }
 
-    & p {
+    & .card-text {
+      padding: 0.4rem;
       font-size: 1.6rem;
       line-height: 1.6;
     }

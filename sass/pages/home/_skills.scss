@@ -1,7 +1,10 @@
 .skills {
   overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 4rem;
+
   & .btm-border {
-    transform: translateX(1rem);
+    transform: translateX(0);
   }
 
   & h2 {
@@ -15,7 +18,9 @@
     // height: 70vh;
     margin: 0 auto;
     background: rgb(7, 0, 0);
+    background: rgb(14, 14, 14);
     display: flex;
+    padding: 2rem 3rem;
 
     max-width: 1200px;
   }
@@ -24,16 +29,22 @@
     flex: 2;
     position: relative;
 
-    &:before {
-      content: "";
-      height: 70%;
-      width: 70%;
-      margin-top: 13rem;
-      left: 0;
-      position: absolute;
-      background: $gradient-primary-dark,
-        url("../../img/studying.jpg") no-repeat center center/cover;
+    & img {
+      transform: translate(-8rem, 12rem);
+      // transform: translate(-5rem, 10rem);
+      width: 100%;
     }
+
+    // &:before {
+    //   content: "";
+    //   height: 70%;
+    //   width: 70%;
+    //   margin-top: 13rem;
+    //   left: 0;
+    //   position: absolute;
+    //   background: $gradient-primary-dark,
+    //     url("../../img/studying.jpg") no-repeat center center/cover;
+    // }
   }
 
   &-list {

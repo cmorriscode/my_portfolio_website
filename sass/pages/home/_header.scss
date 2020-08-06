@@ -3,9 +3,31 @@
   height: 70vh;
 
   & .btm-border-header {
-    &:last-child {
+    // &:last-of-type {
+    //   transform: translate(18rem, -9rem) !important;
+    //   color: pink;
+    // }
+    &:last-of-type {
       transform: translate(-5.4rem, 4rem);
+      // transform: translate(0.5rem, 3rem);
       margin-bottom: 1.4rem;
+      // width: 2px;
+      // border-bottom: none;
+      // height: 4.5rem;
+      // border-right: 6px solid $color-secondary;
+    }
+
+    &-left {
+      transform: translate(-1rem, 3rem);
+      margin-bottom: 1.4rem;
+      border-bottom: none;
+      width: 2px;
+      height: 4.5rem;
+      border-right: 6px solid $color-secondary;
+    }
+
+    &-btn {
+      transform: translate(-2rem, 10rem);
     }
   }
 
@@ -47,7 +69,8 @@
     content: "";
     top: 0;
     left: 0;
-    background: url("../../img/cb_bg.jpg") no-repeat center center/cover;
+    background: url("../../img/header-dark-block.jpg") no-repeat center
+      center/cover;
     box-shadow: $shadow-normal;
   }
 }
@@ -228,7 +251,8 @@ a {
 @media (max-width: 1100px) {
   .header {
     &::before {
-      background: url("../../img/cb_bg.jpg") no-repeat center right / cover;
+      background: url("../../img/custom-bg-test-4.jpg") no-repeat center right /
+        cover;
     }
   }
   .header-text {
@@ -387,7 +411,7 @@ a {
       top: 25%;
     }
     &::before {
-      background: url("../../img/cb_bg.jpg") no-repeat center center;
+      background: url("../../img/custom-bg-test-4.jpg") no-repeat center center;
     }
   }
 

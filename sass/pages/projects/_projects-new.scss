@@ -18,7 +18,8 @@
   height: 14rem;
 
   &::before {
-    background: url("../../img/cb_bg.jpg") no-repeat center center / cover;
+    background: url("../../img/custom-bg-test-4.jpg") no-repeat center center /
+      cover;
   }
 }
 
@@ -28,9 +29,12 @@
 
 .projects {
   overflow-x: hidden;
+  // background: rgb(18, 18, 18);
+  // background: rgb(14, 14, 14);
+
   &-title {
     max-width: 140rem;
-    margin: 0 auto 3.2rem auto;
+    margin: 0rem auto 6rem auto;
     animation: move-in-left 1s ease-out;
     padding: 0 0 0 2rem;
 
@@ -52,12 +56,16 @@
 
   &-container {
     background: rgb(7, 7, 7);
+    background: rgb(16, 16, 16);
+
+    box-shadow: $shadow-normal;
     display: flex;
     flex-direction: column;
     text-align: center;
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 0 auto 6rem auto;
     padding: 4rem 0;
+    box-shadow: $shadow-normal;
     // height: 60vh;
     // background: rgb(7, 7, 7);
 
@@ -78,7 +86,7 @@
     height: 100%;
     flex: 1;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.2rem 1rem;
 
     &-display {
       display: flex;
