@@ -846,9 +846,9 @@ h2 .span-about-text {
 .about-me .right-side {
   -webkit-transform: translate(3.2rem, 6.5rem);
           transform: translate(3.2rem, 6.5rem);
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
 }
 
 .about-me .right-side img {
@@ -886,9 +886,9 @@ h2 .span-about-text {
 }
 
 .skills-img {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
   position: relative;
 }
 
@@ -899,9 +899,9 @@ h2 .span-about-text {
 }
 
 .skills-list {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
   padding: 0.6rem;
 }
 
