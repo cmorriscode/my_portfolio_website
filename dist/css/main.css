@@ -728,7 +728,7 @@ a {
 
 .span-about-text {
   font-size: 2rem;
-  color: #34bebe;
+  color: #11b4b4;
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
@@ -740,13 +740,13 @@ h2 .span-about-text {
 }
 
 .span-primary {
-  color: #34bebe;
+  color: #11b4b4;
   font-size: 7.2rem;
   letter-spacing: 0.7rem;
 }
 
 .span-primary-light {
-  color: aqua;
+  color: #2dc9c9;
 }
 
 .inline-block {
@@ -777,12 +777,12 @@ h2 .span-about-text {
 
 .btm-border-primary {
   display: inline-block;
-  border-bottom: 0.1rem solid #34bebe;
+  border-bottom: 0.1rem solid #11b4b4;
   width: 5.5rem;
 }
 
 .arrow {
-  color: #4ecaca;
+  color: #378f8f;
 }
 
 .test-bio {
@@ -825,7 +825,7 @@ h2 .span-about-text {
 .about-me-body-description a:hover {
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-  color: aqua;
+  color: #2dc9c9;
 }
 
 .about-me-body-description h2 {
@@ -921,7 +921,7 @@ h2 .span-about-text {
   font-size: 2.6rem;
   font-weight: 500;
   margin-top: 2rem;
-  color: #0c8488;
+  color: #07575a;
   line-height: 1.4;
   letter-spacing: 0.3rem;
 }
@@ -944,7 +944,7 @@ h2 .span-about-text {
 }
 
 .icon-laptop, .icon-code {
-  color: #34bebe;
+  color: #11b4b4;
 }
 
 .icon-css {
@@ -1036,7 +1036,7 @@ h2 .span-about-text {
 .footer-container-find-me a:hover {
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
-  color: aqua;
+  color: #2dc9c9;
 }
 
 .projects-container-find-me {
@@ -1054,7 +1054,7 @@ h2 .span-about-text {
 }
 
 .projects-container-find-me a:hover {
-  color: #34bebe;
+  color: #11b4b4;
 }
 
 .projects-header {
@@ -1168,8 +1168,8 @@ h2 .span-about-text {
 .card-img-photo {
   position: absolute;
   width: 75%;
-  -webkit-box-shadow: 0 0.6rem 1.6rem rgba(52, 190, 190, 0.7);
-          box-shadow: 0 0.6rem 1.6rem rgba(52, 190, 190, 0.7);
+  -webkit-box-shadow: 0 0.6rem 1.6rem rgba(17, 180, 180, 0.7);
+          box-shadow: 0 0.6rem 1.6rem rgba(17, 180, 180, 0.7);
   border-radius: 0.2rem;
   z-index: 10;
   -webkit-transition: all 0.4s;
@@ -1200,8 +1200,8 @@ h2 .span-about-text {
 .card-img-photo:hover {
   -webkit-transform: scale(1.1) translateY(-0.5rem);
           transform: scale(1.1) translateY(-0.5rem);
-  -webkit-box-shadow: 0 0.8rem 2rem rgba(52, 190, 190, 0.8);
-          box-shadow: 0 0.8rem 2rem rgba(52, 190, 190, 0.8);
+  -webkit-box-shadow: 0 0.8rem 2rem rgba(17, 180, 180, 0.8);
+          box-shadow: 0 0.8rem 2rem rgba(17, 180, 180, 0.8);
   z-index: 30;
 }
 
@@ -1254,7 +1254,7 @@ h2 .span-about-text {
 }
 
 .card-content-view-button:hover {
-  background: #0c8488;
+  background: #07575a;
   color: #eee;
   -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
           box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
@@ -1277,7 +1277,7 @@ h2 .span-about-text {
   letter-spacing: 0.1rem;
   line-height: 1.2;
   text-align: right;
-  color: aqua;
+  color: #2dc9c9;
   padding: 0.8rem 0.6rem 0.6rem 0.6rem;
 }
 
@@ -1314,8 +1314,8 @@ h2 .span-about-text {
   .card-img-photo {
     position: static;
     width: 75%;
-    -webkit-box-shadow: 0 0.6rem 1.6rem rgba(52, 190, 190, 0.7);
-            box-shadow: 0 0.6rem 1.6rem rgba(52, 190, 190, 0.7);
+    -webkit-box-shadow: 0 0.6rem 1.6rem rgba(17, 180, 180, 0.7);
+            box-shadow: 0 0.6rem 1.6rem rgba(17, 180, 180, 0.7);
     border-radius: 0.2rem;
     z-index: 10;
     -webkit-transition: all 0.4s;
@@ -1373,7 +1373,7 @@ h2 .span-about-text {
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
   }
   .card-content-view-button:hover {
-    background: #0c8488;
+    background: #07575a;
     color: #eee;
     -webkit-box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
             box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.8);
@@ -1393,7 +1393,7 @@ h2 .span-about-text {
     letter-spacing: 0.1rem;
     line-height: 1.2;
     text-align: center;
-    color: #34bebe;
+    color: #11b4b4;
   }
   .card-content p {
     font-size: 1.6rem;
@@ -1455,8 +1455,8 @@ h2 .span-about-text {
           justify-content: center;
   padding: 4rem;
   max-width: 70%;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(52, 190, 190, 0.4)), to(rgba(3, 59, 59, 0.4)));
-  background: linear-gradient(to right bottom, rgba(52, 190, 190, 0.4), rgba(3, 59, 59, 0.4));
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(17, 180, 180, 0.4)), to(rgba(3, 59, 59, 0.4)));
+  background: linear-gradient(to right bottom, rgba(17, 180, 180, 0.4), rgba(3, 59, 59, 0.4));
   color: #eee;
   margin: 0 auto;
   -webkit-box-orient: vertical;
@@ -1481,8 +1481,8 @@ h2 .span-about-text {
   left: 1rem;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(52, 190, 190, 0.4)), to(rgba(12, 132, 136, 0.4)));
-  background: linear-gradient(to right bottom, rgba(52, 190, 190, 0.4), rgba(12, 132, 136, 0.4));
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(17, 180, 180, 0.4)), to(rgba(7, 87, 90, 0.4)));
+  background: linear-gradient(to right bottom, rgba(17, 180, 180, 0.4), rgba(7, 87, 90, 0.4));
   z-index: -1;
   border-radius: 0.3rem;
 }
