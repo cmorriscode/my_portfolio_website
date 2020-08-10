@@ -537,7 +537,36 @@ a {
   }
 }
 
+@media (max-width: 450px) {
+  .header-text {
+    top: 40%;
+    right: 1%;
+  }
+  .header-text h1 {
+    font-size: 3.8rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 4.4rem;
+  }
+}
+
 @media (max-width: 414px) {
+  .header-text {
+    top: 35%;
+    right: 3%;
+  }
+  .header-text h1 {
+    font-size: 3.8rem;
+    padding: 0.7rem 1rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 4.4rem;
+  }
   .about-me {
     margin-bottom: -3rem !important;
   }
@@ -581,6 +610,105 @@ a {
   }
 }
 
+@media (max-width: 360px) {
+  .header-text {
+    top: 35%;
+    right: 4%;
+  }
+  .header-text h1 {
+    font-size: 3.2rem;
+    padding: 0.4rem 0.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-text {
+    top: 35%;
+    right: 4%;
+  }
+  .header-text h1 {
+    font-size: 3.2rem;
+    padding: 0.4rem 0.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .header-text {
+    top: 35%;
+    right: 6%;
+  }
+  .header-text h1 {
+    font-size: 2.8rem;
+    padding: 0.4rem 0.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-height: 450px) {
+  .header {
+    height: 90vh;
+  }
+  .header-text {
+    top: 35%;
+    right: 4%;
+  }
+  .header-text h1 {
+    font-size: 3.2rem;
+    padding: 0.4rem 0.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-height: 320px) {
+  .header-text {
+    top: 35%;
+    right: 4%;
+  }
+  .header-text h1 {
+    font-size: 3.2rem;
+    padding: 0.4rem 0.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-height: 360px) {
+  .header-text {
+    top: 35%;
+    right: 4%;
+  }
+  .header-text h1 {
+    font-size: 3.2rem;
+    padding: 0.4rem 0.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .header-text span {
+    font-size: 3.6rem;
+  }
+}
+
 @media (max-width: 915px) {
   .nav-bar-list {
     display: none;
@@ -603,7 +731,7 @@ a {
     height: 95vh;
   }
   .header-text {
-    top: 25%;
+    top: 35%;
   }
   .header::before {
     background: url("../../img/header-dark.jpg") no-repeat center center;
@@ -792,6 +920,7 @@ h2 .span-about-text {
 
 .about-me {
   position: relative;
+  overflow: hidden;
 }
 
 .about-me-body {
@@ -844,20 +973,32 @@ h2 .span-about-text {
 }
 
 .about-me .right-side {
-  -webkit-transform: translate(3.2rem, 6.5rem);
-          transform: translate(3.2rem, 6.5rem);
+  -webkit-transform: translate(14rem, 9.5rem);
+          transform: translate(14rem, 9.5rem);
   -webkit-box-flex: 2.5;
       -ms-flex: 2.5;
           flex: 2.5;
 }
 
 .about-me .right-side img {
-  width: 100%;
+  width: 80%;
+  border-radius: 3rem;
+}
+
+@media (max-width: 915px) {
+  .right-side {
+    display: none;
+  }
+  .about-me-body-description {
+    text-align: center;
+    margin-right: 0;
+  }
 }
 
 .skills {
   overflow-x: hidden;
   overflow-y: hidden;
+  margin-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -895,7 +1036,7 @@ h2 .span-about-text {
 .skills-img img {
   -webkit-transform: translate(-8rem, 12rem);
           transform: translate(-8rem, 12rem);
-  width: 100%;
+  width: 80%;
 }
 
 .skills-list {
@@ -955,8 +1096,19 @@ h2 .span-about-text {
   color: orangered;
 }
 
+@media (max-width: 915px) {
+  .skills-img {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  .skills-list-container {
+    display: block;
+  }
+}
+
 .build-container {
-  background: #070707;
   background: #0c0c0c;
   padding: 4rem;
   text-align: center;
@@ -972,11 +1124,11 @@ h2 .span-about-text {
   line-height: 1.6;
   letter-spacing: 0.3rem;
   max-width: 1000px;
-  margin: 12rem auto 3.5rem auto;
+  margin: 10.5rem auto 3.5rem auto;
 }
 
 .build-container .contact-me {
-  margin-bottom: 8.5rem;
+  margin-bottom: 10.5rem;
   color: #eee;
   background: #022929;
   font-size: 1.8rem;

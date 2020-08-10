@@ -1,5 +1,6 @@
 .about-me {
   position: relative;
+  overflow: hidden;
 
   &-body {
     display: flex;
@@ -43,20 +44,24 @@
     }
   }
 
-  // & .right-side {
-  //   flex: 2;
-  //   width: 100%;
-  //   // background: url("../../img/hero-img-blue-crop.jpg") no-repeat center center / cover;
-  //   background: url("../../img/code-dark.jpg") no-repeat center center / cover;
-  // }
   & .right-side {
-    transform: translate(3.2rem, 6.5rem);
+    transform: translate(14rem, 9.5rem);
     flex: 2.5;
-    // width: 100%;
-    // // background: url("../../img/hero-img-blue-crop.jpg") no-repeat center center / cover;
-    // background: url("../../img/code-dark.jpg") no-repeat center center / cover;
+
     & img {
-      width: 100%;
+      width: 80%;
+      border-radius: 3rem;
     }
+  }
+}
+
+@media (max-width: 915px) {
+  .right-side {
+    display: none;
+  }
+
+  .about-me-body-description {
+    text-align: center;
+    margin-right: 0;
   }
 }

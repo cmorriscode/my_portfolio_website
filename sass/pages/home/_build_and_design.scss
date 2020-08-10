@@ -1,6 +1,5 @@
 .build {
   &-container {
-    background: rgb(7, 7, 7);
     background: rgb(12, 12, 12);
     padding: 4rem;
     text-align: center;
@@ -15,11 +14,11 @@
       line-height: 1.6;
       letter-spacing: 0.3rem;
       max-width: 1000px;
-      margin: 12rem auto 3.5rem auto;
+      margin: 10.5rem auto 3.5rem auto;
     }
 
     & .contact-me {
-      margin-bottom: 8.5rem;
+      margin-bottom: 10.5rem;
       color: $color-white;
       background: $color-secondary-dark;
       font-size: 1.8rem;

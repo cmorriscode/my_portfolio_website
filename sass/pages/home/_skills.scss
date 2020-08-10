@@ -1,6 +1,7 @@
 .skills {
   overflow-x: hidden;
   overflow-y: hidden;
+  margin-top: 4rem;
   padding-bottom: 4rem;
 
   & .btm-border {
@@ -15,7 +16,6 @@
     margin-bottom: 2rem;
   }
   &-container {
-    // height: 70vh;
     margin: 0 auto;
     background: rgb(7, 0, 0);
     background: rgb(14, 14, 14);
@@ -31,20 +31,9 @@
 
     & img {
       transform: translate(-8rem, 12rem);
-      // transform: translate(-5rem, 10rem);
-      width: 100%;
-    }
 
-    // &:before {
-    //   content: "";
-    //   height: 70%;
-    //   width: 70%;
-    //   margin-top: 13rem;
-    //   left: 0;
-    //   position: absolute;
-    //   background: $gradient-primary-dark,
-    //     url("../../img/studying.jpg") no-repeat center center/cover;
-    // }
+      width: 80%;
+    }
   }
 
   &-list {
@@ -100,5 +89,17 @@
   }
   &-html {
     color: orangered;
+  }
+}
+
+@media (max-width: 915px) {
+  .skills-img {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  .skills-list-container {
+    display: block;
   }
 }
