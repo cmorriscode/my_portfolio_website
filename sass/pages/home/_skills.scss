@@ -28,10 +28,8 @@
   &-img {
     flex: 2.5;
     position: relative;
-
+    transform: translate(-8rem, 16rem);
     & img {
-      transform: translate(-8rem, 12rem);
-
       width: 80%;
     }
   }
@@ -89,17 +87,5 @@
   }
   &-html {
     color: orangered;
-  }
-}
-
-@media (max-width: 915px) {
-  .skills-img {
-    display: none;
-  }
-}
-
-@media (max-width: 280px) {
-  .skills-list-container {
-    display: block;
   }
 }
