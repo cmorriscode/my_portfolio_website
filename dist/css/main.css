@@ -816,7 +816,7 @@ h2 .span-about-text {
 }
 
 .projects-header {
-  height: 14rem !important;
+  height: 14rem;
 }
 
 .projects-header::before {
@@ -1621,7 +1621,7 @@ h2 .span-about-text {
     height: 90vh;
   }
   .projects-header {
-    height: 14rem;
+    height: 14rem !important;
   }
   .header-text {
     top: 35%;
