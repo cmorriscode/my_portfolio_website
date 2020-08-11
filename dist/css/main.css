@@ -817,19 +817,10 @@ h2 .span-about-text {
 
 .projects-header {
   height: 14rem;
-  position: relative;
 }
 
 .projects-header::before {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  content: "";
-  top: 0;
-  left: 0;
   background: url("../../img/header-dark.jpg") no-repeat center center/cover;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
 }
 
 .projects-nav-bar {

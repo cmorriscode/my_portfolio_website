@@ -16,22 +16,22 @@
 
 .projects-header {
   height: 14rem;
-  position: relative;
-
-  // &::before {
-  //   background: url("../../img/header-dark.jpg") no-repeat center center / cover;
-  // }
+  // position: relative;
 
   &::before {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    content: "";
-    top: 0;
-    left: 0;
-    background: url("../../img/header-dark.jpg") no-repeat center center/cover;
-    box-shadow: $shadow-normal;
+    background: url("../../img/header-dark.jpg") no-repeat center center / cover;
   }
+
+  // &::before {
+  //   position: absolute;
+  //   height: 100%;
+  //   width: 100%;
+  //   content: "";
+  //   top: 0;
+  //   left: 0;
+  //   background: url("../../img/header-dark.jpg") no-repeat center center/cover;
+  //   box-shadow: $shadow-normal;
+  // }
 }
 
 .projects-nav-bar {
