@@ -72,26 +72,26 @@
       <div class="contact-container">
 
       <div class="contact-form">
-        <form action="#">
+        <form action="process.php" method="POST">
           <div class="contact-form-container">
             <h3>Contact Me</h3>
             
 
             <div class="contact-form-container-div">
               <!-- <label for="name" >Name:</label> -->
-              <input id="name" type="text" placeholder="Name*" required>
+              <input id="name" type="text" placeholder="Name*" name="name" required>
             </div>
             <div class="contact-form-container-div">
               <!-- <label for="email" required>Email:</label> -->
-              <input id="email" type="email" placeholder="Email*" required>
+              <input id="email" type="email" placeholder="Email*" name="email"required>
             </div>
             <div class="contact-form-container-div">
               <!-- <label for="phone">Phone:</label> -->
-              <input id="phone" type="tel" placeholder="Phone">
+              <input id="phone" type="tel" placeholder="Phone" name="phone">
             </div>
             <div class="contact-form-container-div">
               <!-- <label for="message">Message</label> -->
-              <textarea id="message" type="text" placeholder="Message"></textarea>
+              <textarea id="message" type="text" placeholder="Message" name="message"></textarea>
             </div>
             <button class="contact-button" type="submit">Submit</button>
           </form>
