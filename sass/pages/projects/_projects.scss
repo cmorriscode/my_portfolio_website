@@ -15,7 +15,7 @@
 }
 
 .projects-header {
-  height: 14rem;
+  height: 14rem !important;
 
   &::before {
     background: url("../../img/header-dark.jpg") no-repeat center center / cover;
