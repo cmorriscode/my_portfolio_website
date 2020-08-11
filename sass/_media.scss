@@ -286,6 +286,9 @@
     height: 90vh;
   }
 
+  .projects-header {
+    height: 14rem;
+  }
   .header-text {
     top: 35%;
     right: 4%;
@@ -369,6 +372,10 @@
     &::before {
       background: url("../../img/header-dark.jpg") no-repeat center center;
     }
+  }
+
+  .projects-header {
+    height: 14rem;
   }
 
   .side-nav {

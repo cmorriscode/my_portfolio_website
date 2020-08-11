@@ -1620,6 +1620,9 @@ h2 .span-about-text {
   .header {
     height: 90vh;
   }
+  .projects-header {
+    height: 14rem;
+  }
   .header-text {
     top: 35%;
     right: 4%;
@@ -1693,6 +1696,9 @@ h2 .span-about-text {
   }
   .header::before {
     background: url("../../img/header-dark.jpg") no-repeat center center;
+  }
+  .projects-header {
+    height: 14rem;
   }
   .side-nav {
     height: 100%;
