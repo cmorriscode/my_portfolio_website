@@ -604,15 +604,15 @@ h2 .span-about-text {
 }
 
 .about-me .right-side {
-  -webkit-transform: translate(-2rem, 4rem);
-          transform: translate(-2rem, 4rem);
+  -webkit-transform: translate(10rem, 3rem);
+          transform: translate(10rem, 3rem);
   -webkit-box-flex: 2.5;
       -ms-flex: 2.5;
           flex: 2.5;
 }
 
 .about-me .right-side img {
-  width: 150%;
+  width: 90%;
   border-radius: 3rem;
 }
 
@@ -1435,11 +1435,11 @@ h2 .span-about-text {
     font-size: 6.2rem;
   }
   .right-side {
-    -webkit-transform: translate(-8rem, 8rem) !important;
-            transform: translate(-8rem, 8rem) !important;
+    -webkit-transform: translate(4rem, 3rem) !important;
+            transform: translate(4rem, 3rem) !important;
   }
   .right-side img {
-    width: 125% !important;
+    width: 90% !important;
   }
 }
 
