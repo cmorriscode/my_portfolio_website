@@ -77,6 +77,13 @@ body {
           transform: translate(4.5rem, 1rem) scale(1);
 }
 
+@media (max-width: 500px) {
+  .btn-hero {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
 @-webkit-keyframes move-in-left {
   0% {
     opacity: 0;
@@ -319,8 +326,14 @@ body {
   left: 1.5rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  height: 7rem;
-  width: 7rem;
+}
+
+.nav-bar-logo-click {
+  position: absolute;
+  top: 0;
+  left: 0rem;
+  height: 6.4rem;
+  width: 6.4rem;
   background: url("../../img/headshot2.jpg") no-repeat center center/cover;
   border-radius: 50%;
   border: 0.2rem solid #033b3b;
@@ -329,7 +342,7 @@ body {
 .nav-bar-logo p {
   position: absolute;
   top: 1.7rem;
-  left: 7.6rem;
+  left: 7rem;
   font-size: 1.4rem;
 }
 
@@ -591,8 +604,8 @@ h2 .span-about-text {
 }
 
 .about-me .right-side {
-  -webkit-transform: translate(8rem, 4rem);
-          transform: translate(8rem, 4rem);
+  -webkit-transform: translate(-2rem, 4rem);
+          transform: translate(-2rem, 4rem);
   -webkit-box-flex: 2.5;
       -ms-flex: 2.5;
           flex: 2.5;
@@ -1083,11 +1096,14 @@ h2 .span-about-text {
   left: 1.8rem;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .projects-container-find-me a {
   display: inline-block;
-  margin-right: 0.3rem;
+  margin-right: 0.6rem;
   font-size: 1.4rem;
 }
 
@@ -1567,7 +1583,7 @@ h2 .span-about-text {
   }
   .build-container {
     padding: 2rem !important;
-    margin-bottom: 0rem !important;
+    margin-bottom: 2rem !important;
   }
   .build-container h2 {
     font-size: 4.6rem !important;
@@ -1577,7 +1593,7 @@ h2 .span-about-text {
     font-size: 5.6rem;
   }
   .build-container .contact-me {
-    margin-bottom: 0rem !important;
+    margin-bottom: 2rem !important;
   }
   .skills-img {
     display: none;
@@ -1786,7 +1802,7 @@ h2 .span-about-text {
   }
   .build-container {
     padding: 2rem !important;
-    margin-bottom: 0rem !important;
+    margin-bottom: 2rem !important;
   }
   .build-container h2 {
     font-size: 4.6rem !important;
@@ -1821,7 +1837,7 @@ h2 .span-about-text {
     display: none;
   }
   .skills {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   .skills-container {
     padding: 2rem;

@@ -79,16 +79,22 @@
     top: 0;
     left: 1.5rem;
     box-shadow: $shadow-normal;
-    height: 7rem;
-    width: 7rem;
-    background: url("../../img/headshot2.jpg") no-repeat center center/ cover;
-    border-radius: 50%;
-    border: 0.2rem solid $color-secondary;
+
+    &-click {
+      position: absolute;
+      top: 0;
+      left: 0rem;
+      height: 6.4rem;
+      width: 6.4rem;
+      background: url("../../img/headshot2.jpg") no-repeat center center/ cover;
+      border-radius: 50%;
+      border: 0.2rem solid $color-secondary;
+    }
 
     & p {
       position: absolute;
       top: 1.7rem;
-      left: 7.6rem;
+      left: 7rem;
       font-size: 1.4rem;
     }
   }
