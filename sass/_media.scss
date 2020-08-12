@@ -16,6 +16,13 @@
       font-size: 6.2rem;
     }
   }
+
+  .right-side {
+    transform: translate(-8rem, 8rem) !important;
+    & img {
+      width: 125% !important;
+    }
+  }
 }
 
 @media (max-width: 1280px) {
@@ -36,7 +43,6 @@
     }
   }
   .right-side {
-    transform: translate(0rem, 12.5rem) !important;
     flex: 2.5;
   }
   .skills-img {

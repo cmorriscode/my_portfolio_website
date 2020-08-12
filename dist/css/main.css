@@ -319,9 +319,9 @@ body {
   left: 1.5rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  height: 6rem;
-  width: 6rem;
-  background: url("../../img/simple-selfie-edit-smile.jpg") no-repeat center center/cover;
+  height: 7rem;
+  width: 7rem;
+  background: url("../../img/headshot2.jpg") no-repeat center center/cover;
   border-radius: 50%;
   border: 0.2rem solid #033b3b;
 }
@@ -329,7 +329,7 @@ body {
 .nav-bar-logo p {
   position: absolute;
   top: 1.7rem;
-  left: 7rem;
+  left: 7.6rem;
   font-size: 1.4rem;
 }
 
@@ -591,15 +591,15 @@ h2 .span-about-text {
 }
 
 .about-me .right-side {
-  -webkit-transform: translate(14rem, 9.5rem);
-          transform: translate(14rem, 9.5rem);
+  -webkit-transform: translate(0rem, 0rem);
+          transform: translate(0rem, 0rem);
   -webkit-box-flex: 2.5;
       -ms-flex: 2.5;
           flex: 2.5;
 }
 
 .about-me .right-side img {
-  width: 80%;
+  width: 150%;
   border-radius: 3rem;
 }
 
@@ -1416,6 +1416,13 @@ h2 .span-about-text {
   .header-text span {
     font-size: 6.2rem;
   }
+  .right-side {
+    -webkit-transform: translate(-8rem, 8rem) !important;
+            transform: translate(-8rem, 8rem) !important;
+  }
+  .right-side img {
+    width: 125% !important;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -1434,8 +1441,6 @@ h2 .span-about-text {
     font-size: 5.4rem;
   }
   .right-side {
-    -webkit-transform: translate(0rem, 12.5rem) !important;
-            transform: translate(0rem, 12.5rem) !important;
     -webkit-box-flex: 2.5;
         -ms-flex: 2.5;
             flex: 2.5;
