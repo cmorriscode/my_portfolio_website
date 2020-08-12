@@ -94,7 +94,10 @@
     }
   }
   .about-me {
-    margin-bottom: -5rem !important;
+    &-body-description {
+      padding: 1rem 1.4rem;
+    }
+    // margin-bottom: -2rem !important;
   }
 }
 @media (max-width: 736px) {
@@ -113,6 +116,12 @@
 
     & span {
       font-size: 5.2rem;
+    }
+  }
+
+  .right-side {
+    img {
+      width: 50% important;
     }
   }
 }
@@ -134,9 +143,16 @@
       font-size: 4.4rem;
     }
   }
+
+  .build {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 450px) {
+  .about-me {
+    margin-top: 4rem;
+  }
   .header-text {
     top: 40%;
     right: 1%;
@@ -176,15 +192,15 @@
   }
 
   .about-me {
-    margin-bottom: -3rem !important;
+    margin-bottom: 0rem !important;
     & .right-side {
-      display: none !important;
+      // display: none !important;
     }
   }
 
   .build {
     &-container {
-      padding: 4rem !important;
+      padding: 2rem !important;
       margin-bottom: 0rem !important;
       & h2 {
         font-size: 4.6rem !important;
@@ -194,7 +210,7 @@
         font-size: 5.6rem;
       }
       & .contact-me {
-        margin-bottom: 2rem !important;
+        margin-bottom: 0rem !important;
       }
     }
   }
@@ -203,7 +219,7 @@
   }
 
   .skills {
-    margin-top: 2rem !important;
+    margin-top: 0rem !important;
     &-list {
       text-align: center;
       &-container {
@@ -315,6 +331,9 @@
 }
 
 @media (max-height: 320px) {
+  .about-me {
+    margin-top: 2rem;
+  }
   .header-text {
     top: 35%;
     right: 4%;
@@ -380,6 +399,10 @@
     }
   }
 
+  .right-side img {
+    width: 5%;
+  }
+
   .projects-header {
     height: 14rem;
   }
@@ -424,15 +447,14 @@
 
   .about-me {
     text-align: center;
-    margin-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    margin-top: 4rem !important;
 
     .right-side {
-      display: none;
     }
   }
 
   .build {
+    margin-top: 4rem;
     &-container {
       padding: 2rem !important;
       margin-bottom: 0rem !important;
@@ -472,6 +494,13 @@
 @media (max-width: 915px) {
   .skills-img {
     display: none;
+  }
+  .skills {
+    padding-bottom: 1rem;
+
+    &-container {
+      padding: 2rem;
+    }
   }
 }
 

@@ -45,7 +45,7 @@
   }
 
   & .right-side {
-    transform: translate(0rem, 0rem);
+    transform: translate(8rem, 4rem);
     flex: 2.5;
 
     & img {
@@ -56,8 +56,13 @@
 }
 
 @media (max-width: 915px) {
+  .about-me-body {
+    // flex-direction: column;
+  }
   .right-side {
     display: none;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .about-me-body-description {

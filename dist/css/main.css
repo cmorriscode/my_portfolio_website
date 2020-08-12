@@ -591,8 +591,8 @@ h2 .span-about-text {
 }
 
 .about-me .right-side {
-  -webkit-transform: translate(0rem, 0rem);
-          transform: translate(0rem, 0rem);
+  -webkit-transform: translate(8rem, 4rem);
+          transform: translate(8rem, 4rem);
   -webkit-box-flex: 2.5;
       -ms-flex: 2.5;
           flex: 2.5;
@@ -606,6 +606,8 @@ h2 .span-about-text {
 @media (max-width: 915px) {
   .right-side {
     display: none;
+    margin: 0 auto;
+    text-align: center;
   }
   .about-me-body-description {
     text-align: center;
@@ -1484,8 +1486,8 @@ h2 .span-about-text {
   .header-text span {
     font-size: 5.2rem;
   }
-  .about-me {
-    margin-bottom: -5rem !important;
+  .about-me-body-description {
+    padding: 1rem 1.4rem;
   }
 }
 
@@ -1503,6 +1505,9 @@ h2 .span-about-text {
   .header-text span {
     font-size: 5.2rem;
   }
+  .right-side img {
+    width: 50% important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1519,9 +1524,15 @@ h2 .span-about-text {
   .header-text span {
     font-size: 4.4rem;
   }
+  .build {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 450px) {
+  .about-me {
+    margin-top: 4rem;
+  }
   .header-text {
     top: 40%;
     right: 1%;
@@ -1552,13 +1563,10 @@ h2 .span-about-text {
     font-size: 4.4rem;
   }
   .about-me {
-    margin-bottom: -3rem !important;
-  }
-  .about-me .right-side {
-    display: none !important;
+    margin-bottom: 0rem !important;
   }
   .build-container {
-    padding: 4rem !important;
+    padding: 2rem !important;
     margin-bottom: 0rem !important;
   }
   .build-container h2 {
@@ -1569,13 +1577,13 @@ h2 .span-about-text {
     font-size: 5.6rem;
   }
   .build-container .contact-me {
-    margin-bottom: 2rem !important;
+    margin-bottom: 0rem !important;
   }
   .skills-img {
     display: none;
   }
   .skills {
-    margin-top: 2rem !important;
+    margin-top: 0rem !important;
   }
   .skills-list {
     text-align: center;
@@ -1668,6 +1676,9 @@ h2 .span-about-text {
 }
 
 @media (max-height: 320px) {
+  .about-me {
+    margin-top: 2rem;
+  }
   .header-text {
     top: 35%;
     right: 4%;
@@ -1726,6 +1737,9 @@ h2 .span-about-text {
   .header::before {
     background: url("../../img/header-dark.jpg") no-repeat center center;
   }
+  .right-side img {
+    width: 5%;
+  }
   .projects-header {
     height: 14rem;
   }
@@ -1765,11 +1779,10 @@ h2 .span-about-text {
   }
   .about-me {
     text-align: center;
-    margin-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    margin-top: 4rem !important;
   }
-  .about-me .right-side {
-    display: none;
+  .build {
+    margin-top: 4rem;
   }
   .build-container {
     padding: 2rem !important;
@@ -1806,6 +1819,12 @@ h2 .span-about-text {
 @media (max-width: 915px) {
   .skills-img {
     display: none;
+  }
+  .skills {
+    padding-bottom: 1rem;
+  }
+  .skills-container {
+    padding: 2rem;
   }
 }
 
