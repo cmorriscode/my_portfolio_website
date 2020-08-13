@@ -613,7 +613,6 @@ h2 .span-about-text {
 
 .about-me .right-side img {
   width: 90%;
-  border-radius: 3rem;
 }
 
 @media (max-width: 915px) {
