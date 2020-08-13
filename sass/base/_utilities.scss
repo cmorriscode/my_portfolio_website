@@ -100,3 +100,11 @@ h2 .span-about-text {
 .arrow {
   color: $color-primary-variation;
 }
+
+.dead {
+  background: $color-secondary-darkest !important;
+  &:hover {
+    transform: translateY(0) !important;
+    background: $color-secondary-darkest !important;
+  }
+}

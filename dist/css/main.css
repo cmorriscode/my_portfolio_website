@@ -549,6 +549,16 @@ h2 .span-about-text {
   color: #378f8f;
 }
 
+.dead {
+  background: #011616 !important;
+}
+
+.dead:hover {
+  -webkit-transform: translateY(0) !important;
+          transform: translateY(0) !important;
+  background: #011616 !important;
+}
+
 .about-me {
   position: relative;
   overflow: hidden;
