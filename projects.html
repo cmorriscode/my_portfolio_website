@@ -13,7 +13,7 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/main.css?version=1.3" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Projects Portfolio | Charlie Morris</title>
   </head>
@@ -105,7 +105,7 @@
                 </div>
               </div>
               <div class="card-content">
-                <h3>Portfolio Website</h3>
+                <h3><a class="card-h3" href="#">Portfolio Website</a></h3>
                 <p class="tech-used">HTML, CSS (SCSS), Photoshop, JavaScript</p>
                 <p class="margin-top-small card-text">
                   The website you're currently viewing. Designed and coded from
@@ -131,7 +131,7 @@
                 </div>
               </div>
             </div>
-                <div class="card margin-top-large">
+                <div class="card margin-top-large" data-aos="fade-left">
                   <div class="card-img">
                     <div class="">
                       <img
@@ -156,7 +156,7 @@
                     </div>
                   </div>
                   <div class="card-content">
-                    <h3>Christine's Cartoons</h3>
+                    <h3><a class="card-h3" href="https://christinescartoons.com" target="_blank">Christine's Cartoons</a></h3>
                     <p class="tech-used">HTML, CSS (SCSS), Photoshop, JavaScript</p>
                     <p class="margin-top-small card-text">Customized website built from scratch with collaboration from the client/artist. I aimed to create a modern and clean web design to highlight the client's artwork and storytelling. Custom image carousel built with JavaScript. Image compression used for faster loading times without compromising quality. Code not made public for privacy reasons. Website will be expanded with new features and frequent updates.
                     </p>
@@ -184,6 +184,52 @@
               <div class="card-img">
                 <div class="">
                   <img
+                    src="/img/todo-3.jpg"
+                    alt="Screenshot of Tic Tac Toe Web Application"
+                    class="card-img-photo card-img-photo-1"
+                  />
+                </div>
+                <div class="">
+                  <img
+                    src="/img/todo-1.jpg"
+                    alt="Screenshot of Tic Tac Toe Web Application"
+                    class="card-img-photo card-img-photo-2"
+                  />
+                </div>
+                <div class="">
+                  <img
+                    src="/img/todo-2.jpg"
+                    alt="Screenshot of Tic Tac Toe Web Application"
+                    class="card-img-photo card-img-photo-3"
+                  />
+                </div>
+              </div>
+              <div class="card-content">
+                <h3><a class="card-h3" href="https://cmorriscode.github.io/todo-list/" target="_blank">To-do List</a></h3>
+                <p class="tech-used">Vanilla JavaScript, CSS, HTML</p>
+                <p class="margin-top-small card-text">
+                To-do List which is custom designed and coded with vanilla JavaScript. Data is persisted to local storage. Dynamically create and delete tasks, customize tasks with titles, descriptions and priorities. Tasks are sorted and color coded based on their priority levels - low, important or urgent. Check tasks when they're completed. Incomplete task count is updated whenever tasks are completed. Functionality to clear completed tasks or clear all tasks. Responsive for mobile.  
+                </p>
+                <div class="card-content-view">
+                  <p>&rsaquo;</p>
+                  <a href="https://cmorriscode.github.io/todo-list/"
+                    target="_blank"
+                    class="card-content-view-button card-content-view-app"
+                    >View App</a
+                  >
+                  <a
+                    href="https://github.com/cmorriscode/todo-list"
+                    target="_blank"
+                    class="card-content-view-button card-content-view-code"
+                    >View code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card margin-top-large" data-aos="fade-left">
+              <div class="card-img">
+                <div class="">
+                  <img
                     src="/img/tic-1.jpg"
                     alt="Screenshot of Tic Tac Toe Web Application"
                     class="card-img-photo card-img-photo-1"
@@ -205,7 +251,8 @@
                 </div>
               </div>
               <div class="card-content">
-                <h3>Tic Tac Toe</h3>
+                <h3><a class="card-h3"  href="https://github.com/cmorriscode/tic-tac-toe"
+                  target="_blank">Tic Tac Toe</a></h3>
                 <p class="tech-used">JavaScript, CSS, HTML</p>
                 <p class="margin-top-small card-text">
                   Tic-Tac-Toe game in the browser. Play against a friend or
@@ -230,7 +277,7 @@
                 </div>
               </div>
             </div>
-            <div class="card margin-top-large" data-aos="fade-left">
+            <div class="card margin-top-large" data-aos="fade-right">
               <div class="card-img">
                 <div class="">
                   <img
@@ -255,7 +302,8 @@
                 </div>
               </div>
               <div class="card-content">
-                <h3>Etch-a-Sketch</h3>
+                <h3><a class="card-h3"  href="https://github.com/cmorriscode/etch-a-sketch"
+                  target="_blank">Etch-a-Sketch</a></h3>
                 <p class="tech-used">JavaScript, CSS, HTML</p>
                 <p class="margin-top-small card-text">
                   Classic Etch-a-Sketch game which includes functionality to

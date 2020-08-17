@@ -295,10 +295,6 @@ body {
   background: url("../../img/header-dark.jpg") no-repeat center center/cover;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .nav-bar {
@@ -968,7 +964,8 @@ h2 .span-about-text {
   margin-right: 1rem;
 }
 
-.card-content h3 {
+.card-content .card-h3 {
+  display: block;
   font-size: 2.6rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
@@ -1138,10 +1135,6 @@ h2 .span-about-text {
   height: 100%;
   width: 100%;
   background: url("../../img/header-dark.jpg") no-repeat center center/cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .projects-nav-bar {
