@@ -179,6 +179,10 @@
       margin: 0;
       text-align: center;
 
+      & .card-h3 {
+        text-align: inherit;
+      }
+
       &-view {
         display: flex;
 

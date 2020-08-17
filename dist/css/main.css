@@ -1033,6 +1033,9 @@ h2 .span-about-text {
     margin: 0;
     text-align: center;
   }
+  .card-content .card-h3 {
+    text-align: inherit;
+  }
   .card-content-view {
     display: -webkit-box;
     display: -ms-flexbox;
