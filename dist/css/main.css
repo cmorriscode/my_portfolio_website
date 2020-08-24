@@ -1137,7 +1137,7 @@ h2 .span-about-text {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url("../../img/header-dark.jpg") no-repeat center center/cover;
+  background: url("../../img/header-dark-big.jpg") no-repeat center center/cover;
 }
 
 .projects-nav-bar {
@@ -1307,7 +1307,7 @@ h2 .span-about-text {
   display: block;
   text-align: left;
   font-size: 1.4rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
 }
 
 .contact-form-container-div input {

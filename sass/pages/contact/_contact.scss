@@ -27,6 +27,7 @@
     flex: 1;
     max-width: 50%;
     margin: 0 auto;
+
     &-container {
       display: flex;
       text-align: center;
@@ -74,7 +75,7 @@
           display: block;
           text-align: left;
           font-size: 1.4rem;
-          margin-bottom: 0.4rem;
+          margin-bottom: 0.8rem;
         }
         & input {
           display: block;

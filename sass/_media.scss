@@ -55,6 +55,11 @@
     &::before {
       background: url("../../img/header-dark-big.jpg") no-repeat center right /
         cover;
+
+      // background-attachment: fixed;
+      // background-position: right;
+      // background-repeat: no-repeat;
+      // background-size: cover;
     }
   }
   .header-text {
